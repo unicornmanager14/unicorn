@@ -1,0 +1,254 @@
+/**********************************************************************************************************************/
+/*===--------------------------------------------=== Blocks ===----------------------------------------------------===*/
+/**********************************************************************************************************************/
+
+/* -- Overlay --
+* Это класс-контейнер который оборачивает весь html документ.
+* Это нужно для лучшего контроля верстки.
+*/
+#overlay{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+/*-- Header и Footer --
+* Поскольку в шапке находится много плавающих элементов float: left
+* к тегам header и footer присваиваются дополнительные элементы,
+* которые уберают обтекание
+*/
+header:before, header:after,
+footer:before, footer:after{
+    content: ".";
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+header:after,
+footer:after{
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
+
+/*-- Container --
+* Этот класс содержит контент страницы. Задайрте этому классу ширину
+* вашего документа и оборачивайте в него ваш контент
+*/
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    -webkit-transition: all 0.1s ease-out;
+    -moz-transition: all 0.1s ease-out;
+    -o-transition: all 0.1s ease-out;
+    -ms-transition: all 0.1s ease-out;
+    transition: all 0.1s ease-out;
+    /*height: 100%;*/
+    position: relative;
+}
+
+/*-- Rows --
+* Так как документ формируется из рядов и столбцов, пользуйтесь заготовленными
+* столбцами и рядами
+*/
+.row, .row-fluid{
+    width: 100%;
+}
+.row:before, .row-fluid:before,
+.row:after, .row-fluid:after{
+    content: ".";
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+.row:after, .row-fluid:after{
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
+
+/*-- Cells --
+* Ширина ячеек
+*/
+[class*="cell"]{
+    float: left;
+    min-height: 1px;
+    position: relative;
+}
+.cell-12{ width: 1200px; }
+.cell-11{ width: 1100px; }
+.cell-10{ width: 1000px; }
+.cell-9{ width: 900px; }
+.cell-8{ width: 800px; }
+.cell-7{ width: 700px; }
+.cell-6{ width: 600px; }
+.cell-5{ width: 500px; }
+.cell-4{ width: 400px; }
+.cell-3{ width: 300px; }
+.cell-2{ width: 200px; }
+.cell-1{ width: 100px; }
+
+/*-- Offset --
+* Отступы
+*/
+.offset-10{ margin-left: 1000px; }
+.offset-9{ margin-left: 900px; }
+.offset-8{ margin-left: 800px; }
+.offset-7{ margin-left: 700px; }
+.offset-6{ margin-left: 600px; }
+.offset-5{ margin-left: 500px; }
+.offset-4{ margin-left: 400px; }
+.offset-3{ margin-left: 300px; }
+.offset-2{ margin-left: 200px; }
+.offset-1{ margin-left: 100px; }
+
+/*-- Full Width --
+* Этот хак применяется тогда, когда элементы интерфейса необходимо
+* расположить ровно по ширине блока
+*/
+.full_width{
+    text-align: justify;
+    line-height: 0;
+}
+.full_width:after{
+    content: '';
+    width: 100%;
+    height: 0;
+    visibility: hidden;
+    overflow: hidden;
+    display: inline-block;
+}
+.full_width > *{
+    display: inline-block;
+    text-align: left;
+    line-height: normal;
+    vertical-align: top;
+}
+
+/**********************************************************************************************************************/
+/*===-------------------------------------=== Position and Align ===-----------------------------------------------===*/
+/**********************************************************************************************************************/
+
+/* --Float--
+* Обтекание элементов
+*/
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+/* --Position--
+* Позиционирование элементов
+*/
+.fixed{
+    position: fixed;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+}
+/* --Text Align--
+* Выравнивание текста
+*/
+.text-left{
+    text-align: left;
+}
+.text-center{
+    text-align: center;
+}
+.text-right{
+    text-align: right;
+}
+/* --Displaying elements--
+* Отображение элементов
+*/
+.ds_block{
+    display: block !important;
+}
+.ds_inline{
+    display: inline-block;
+}
+.ds_table{
+    display: table;
+}
+.ds_none{
+    display: none;
+}
+.margin_auto{
+    margin: 0 auto;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*===-----------------------------------------=== Typography ===----------------------------------------------===*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/* --Lists--
+* Построение списков
+* .unstyled - Без
+* .inline - Делает список inline, за счет чего список выравнивается в линию
+*/
+ul.unstyled, ol.unstyled{
+    list-style: none !important;
+}
+ul.inline > li, ol.inline > li{
+    display: inline-block;
+}
+
+/* --Tables--
+* Зебра для таблицы
+*/
+table.zebra tbody tr:nth-child(odd){
+    background-color: #cccccc;
+}
+table.hover tbody tr:hover td{
+    background-color: #cccccc;
+}
+/* --Images--
+* Изображения
+*/
+.img-round{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.img-polaroid {
+    padding: 4px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+/**********************************************************************************************************************/
+/*===--------------------------------------------=== Fixes ===-----------------------------------------------------===*/
+/**********************************************************************************************************************/
+
+/*-- Clearfix --
+* Обнуление плавающих элементов
+*/
+.clearfix{
+    zoom: 1; /* IE < 8 */
+    display: block;
+}
+.clearfix:before,
+.clearfix:after{
+    content: ".";
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+.clearfix:after{
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+}
+html[xmlns] .clearfix{
+    display: block;
+}
+* html .clearfix{
+    height: 1%;
+}

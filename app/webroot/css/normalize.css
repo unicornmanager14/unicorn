@@ -1,0 +1,277 @@
+/**********************************************************************************************************************/
+/*===-------------------------------------------=== Общие стили ===------------------------------------------------===*/
+/**********************************************************************************************************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+    height: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*===-----------------------------------------=== HTML5 элементы ===-----------------------------------------------===*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden], template {
+    display: none;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*===----------------------------------------------=== Текст ===-------------------------------------------===*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+/* Ссылки */
+a {
+    background: transparent;
+}
+a:active, a:hover {
+    outline: 0;
+}
+
+/* Оформление текста */
+abbr[title], dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+b, strong, th, thead td {
+    font-weight: bold;
+}
+del {
+    text-decoration: line-through;
+}
+dfn {
+    font-style: italic;
+}
+h1, h2, h3, h4, h5, h6 {
+    text-rendering: optimizelegibility;
+}
+mark {
+    background: #ff0;
+    color: #000;
+    font-style: italic;
+    font-weight: bold;
+}
+small {
+    font-size: 80%;
+}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+cite, em {
+    font-style: italic;
+}
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*===--------------------------------------=== Встраиваемые элементы ===-------------------------------------------===*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+img {
+    display: inline-block;
+    border: 0;
+    width: auto\9;/* IE8 Fix */
+    height: auto;
+    max-width: 100%;
+    -ms-interpolation-mode: bicubic;
+}
+a img {
+    vertical-align: bottom;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+.video embed, .video object, .video iframe {
+    width: 100%;
+    height: auto;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*===--------------------------------------=== Группировка элементов ===-------------------------------------------===*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+figure {
+    margin: 1em 40px;
+}
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+pre {
+    overflow: auto;
+}
+code, kbd, pre, samp {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    white-space: pre;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*===-------------------------------------------=== Элементы формы ===---------------------------------------------===*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
+}
+button {
+    overflow: visible;
+    border: none;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+input {
+    line-height: normal;
+}
+input, select {
+    vertical-align: middle;
+}
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+input[type="search"] {
+  -webkit-appearance: textfield;
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend {
+    border: 0;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    border: 0;
+}
+optgroup {
+  font-weight: bold;
+}
+
+/* Стили по умолчанию */
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"]{
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border linear .2s, box-shadow linear .2s;
+    -moz-transition: border linear .2s, box-shadow linear .2s;
+    -o-transition: border linear .2s, box-shadow linear .2s;
+    transition: border linear .2s, box-shadow linear .2s;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus {
+    border-color: rgba(82, 168, 236, 0.8);
+    outline: 0;
+    outline: thin dotted \9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(82,168,236,.6);
+}
+input:focus:invalid,
+textarea:focus:invalid,
+select:focus:invalid {
+    color: #b94a48;
+    border-color: #ee5f5b;
+}
+input:focus:invalid:focus,
+textarea:focus:invalid:focus,
+select:focus:invalid:focus {
+    border-color: #e9322d;
+    -webkit-box-shadow: 0 0 6px #f8b9b7;
+    -moz-box-shadow: 0 0 6px #f8b9b7;
+    box-shadow: 0 0 6px #f8b9b7;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*===-----------------------------------------------=== Таблицы ===------------------------------------------------===*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+td, th {
+  padding: 0;
+}
