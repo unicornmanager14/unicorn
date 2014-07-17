@@ -62,7 +62,7 @@
 /*===-------------------------------------------=== Общие стили ===------------------------------------------------===*/
 /**********************************************************************************************************************/
 body{
-    font-family: 'PFAgoraSansPro-Regular', serif;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
 }
 
 
@@ -95,6 +95,8 @@ body{
     background: url("../img/header/rainbow.png") repeat-x;
     width: 100%;
     height: 2px;
+    position: relative;
+    z-index:3;
 }
 /* Rounded link */
 .round{
@@ -105,7 +107,7 @@ body{
     text-align: center;
 }
 .round a{
-    font-family: 'Uni_Sans-Thin-Italic', "Times New Roman", sans-serif;
+    font-family: 'Uni_Sans-Thin-Italic', "Times New Roman", sans-sans-serif;
     color: #a6a6a6;
     text-transform: none;
     display: block;
@@ -116,7 +118,7 @@ body{
     padding-left: 27px;
     color: #ea3a15;
     font-size: 1.2em;
-    font-family: 'uni_sans-thin', Arial, serif;
+    font-family: 'uni_sans-thin', Arial, sans-serif;
     position: relative;
     top: 45px;
     text-decoration: none;
@@ -153,6 +155,9 @@ body{
 header{
     background-color: #fff;
     z-index: 10000;
+    width:100%;
+    position:fixed;
+    top:0;
 }
 /* Меню */
 #main_menu{
@@ -176,7 +181,7 @@ header{
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
-    font-family: 'PFAgoraSansPro-Bold', Arial, serif;
+    font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
 }
 #main_menu ul li a.logo,
 #mini_main_menu ul li a.logo{
@@ -227,7 +232,7 @@ header{
     text-decoration: none;
     font-size: 12px;
     text-transform: uppercase;
-    font-family: 'PFAgoraSansPro-Regular', serif;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
 }
 .secondary_nav ul li a:hover,
 .secondary_nav ul li a.active{
@@ -250,17 +255,17 @@ header{
 }
 #who_we_are h1{
     font-size: 60px;
-    font-family: 'Uni_Sans-Heavy', Arial, serif;
+    font-family: 'Uni_Sans-Heavy', Arial, sans-serif;
     padding: 70px 0 30px 0;
 }
 #who_we_are h1 span{
-    font-family: 'Uni_Sans-Thin', Arial, serif;
+    font-family: 'Uni_Sans-Thin', Arial, sans-serif;
     font-weight: normal;
     position: relative;
     z-index: 1;
 }
 #who_we_are p{
-    font-family: 'PFAgoraSansPro-Thin', Arial, serif;
+    font-family: 'PFAgoraSansPro-Thin', Arial, sans-serif;
     font-size: 1.8em;
     line-height: 30px;
 }
@@ -277,7 +282,7 @@ header{
     height: 50px;
     padding: 0 70px;
     color: #010101;
-    font-family: 'Uni_Sans-Thin', Arial, sans-serif;
+    font-family: 'Uni_Sans-Thin', Arial, sans-sans-serif;
     font-size: 14px;
     position: relative;
 }
@@ -328,7 +333,7 @@ header{
 }
 .tabs_content .tabs_content_div .about{
     width: 430px;
-    font-family: 'PFAgoraSansPro-Regular', Arial, serif;
+    font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
     padding-left: 50px;
 }
 .tabs_content .tabs_content_div .about h3{
@@ -380,7 +385,7 @@ header{
 }
 /*===-----------------------------------------=== Заказать проект ===----------------------------------------------===*/
 #order_project{
-    font-family: 'PFAgoraSansPro-Regular', Arial, serif;
+    font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
     font-size: 18px;
     color: #ffffff;
 }
@@ -405,10 +410,10 @@ header{
     color: #fefefe;
 }
 #order_project .order_project_content .first h3{
-    font-family: 'PFAgoraSansPro-Bold', Arial, serif;
+    font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
 }
 #order_project .order_project_content .first h4{
-    font-family: 'PFAgoraSansPro-Thin', Arial, serif;
+    font-family: 'PFAgoraSansPro-Thin', Arial, sans-serif;
 }
 #order_project .order_project_content .third button{
     background: #2c9ddf url("../img/order/icon.png") no-repeat 25px 10px;
@@ -430,23 +435,23 @@ header{
 /* Форма */
 #order_project .order_project_content .contact_form input[type='text']{
     background: #1e668f;
-    padding: 10px 17px;
+    padding: 13px 17px;
     font-size: 14px;
-    font-family: 'PFAgoraSansPro-Regular', serif;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
     border: 0;
     width: 285px;
     margin-bottom: 20px;
 }
 #order_project .order_project_content .contact_form textarea{
     background: #1e668f;
-    font-family: 'PFAgoraSansPro-Regular', serif;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
     font-size: 14px;
-    padding: 10px 17px;
+    padding: 13px 17px;
     width: 625px;
     border: 0;
     resize: none;
     float: left;
-    height: 48px;
+    height: 42px;
 }
 #order_project .order_project_content .contact_form .breaf p{
     font-size: 14px;
@@ -461,15 +466,65 @@ header{
     padding: 0 60px;
     line-height: 60px;
     height: 60px;
-    font-family: 'PFAgoraSansPro-Bold', serif;
+    font-family: 'PFAgoraSansPro-Bold', sans-serif;
     background-color: #fff;
     border: 0;
 }
+#order_project .input_drop {
+    position: relative;
+    margin-bottom: 20px;
+}
+#order_project .input_drop input {
+    margin-bottom: 0 !important;
+    cursor: pointer;
+}
+.arrow {
+    width: 19px;
+    height: 12px;
+    background: url("../img/select_arrow.png") no-repeat;
+    position: absolute;
+    top: 15px;
+    right: 22px;
+    opacity: .5;
+    cursor: pointer;
+    transition: opacity .2s;
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -ms-transition: opacity .2s;
+}
+#order_project .input_drop:hover .arrow {
+    opacity: 1
+}
+#order_project .input_drop .drop_block {
+    background: #144e6f;
+    padding: 6px 23px 6px 11px;
+    display: none;
+    position: absolute;
+    width: 285px;
+}
+#order_project .input_drop .radio-btn {padding-left: 8px;margin: 3px 0;}
+#order_project .input_drop input[type=checkbox] {display: none;}
+#order_project .input_drop input[type=checkbox]+.radio-label { background: url("../img/order/radio_btn.png") 0 6px no-repeat;padding-bottom: 3px; padding-left: 24px; padding-top: 3px;}
+#order_project .input_drop input[type=checkbox]:checked+.radio-label { background: url("../img/order/radio_btn.png") 0 -41px no-repeat;padding-bottom: 3px; padding-left: 24px; padding-top: 3px; color: #ffffff;}
+#order_project .input_drop .radio-label {font-family: 'PFAgoraSansPro-Regular',sans-serif;font-size: 14px; cursor: pointer; transition: color .2s;}
+
+#order_project .order_project_content .contact_form input::-moz-placeholder,
+#order_project .order_project_content .contact_form textarea::-moz-placeholder {
+    opacity: 1;
+    color: #ffffff;
+}
+#order_project .order_project_content .contact_form input::-webkit-input-placeholder,
+#order_project .order_project_content .contact_form textarea::-webkit-input-pl {
+    opacity: 1;
+    color: #ffffff;
+}
+
 /*===--------------------------------------------=== Social Media ===----------------------------------------------===*/
 #social_media{
     padding: 15px 0;
     border-bottom: 1px solid #aeaeae;
-    font-family: 'PFAgoraSansPro-Regular', serif;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
 }
 #social_media ul li{
     float: left;
@@ -503,31 +558,31 @@ header{
 }
 #portfolio ul li a h3{
     padding: 25px 0 15px 0;
-    font-family: 'PFAgoraSansPro-Bold', serif;
+    font-family: 'PFAgoraSansPro-Bold', sans-serif;
     font-size: 18px;
     text-transform: uppercase;
 }
 #portfolio ul li a p{
     font-size: 14px;
-    font-family: 'PFAgoraSansPro-Regular', serif;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
 }
 /*===-------------------------------------------=== Полная нода ===------------------------------------------------===*/
 #single_work{
 
 }
 #single_work h1{
-    font-family: 'PFAgoraSansPro-Bold', serif;
+    font-family: 'PFAgoraSansPro-Bold', sans-serif;
     font-size: 30px;
     text-transform: uppercase;
     padding: 105px 0 35px 0;
 }
 #pr_desc{
     font-size: 14px;
-    font-family: 'PFAgoraSansPro-Regular', serif;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
     padding-bottom: 60px;
 }
 #what_we_do{
-    font-family: 'PFAgoraSansPro-Bold', serif;
+    font-family: 'PFAgoraSansPro-Bold', sans-serif;
     font-size: 15px;
     text-transform: uppercase;
     padding-bottom: 50px;
@@ -549,7 +604,7 @@ footer .logo p{
 }
 footer .logo p span{
     text-transform: uppercase;
-    font-family: 'PFAgoraSansPro-Bold', serif;
+    font-family: 'PFAgoraSansPro-Bold', sans-serif;
     font-weight: normal;
 }
 footer .right ul li{

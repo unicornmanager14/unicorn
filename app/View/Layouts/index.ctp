@@ -62,18 +62,32 @@
             <div class="contact_form">
                 <form action="#" method="post">
                     <div class="full_width">
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>1</option>
-                            <option>2</option>
-                        </select>
-                        <input type="text" placeholder="Что делаем?" />
-                        <input type="text" placeholder="Что делаем?" />
+                        <div class="input_drop">
+                            <input type="text" placeholder="Что делаем?" readonly/>
+                            <div class="arrow"></div>
+                            <div class="drop_block">
+                                <div class="radio-btn">
+                                    <input class="field" type="checkbox" id="r_01" value="Дизайн" name="r_01">
+                                    <label for="r_01" class="radio-label">Дизайн</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input class="field" type="checkbox" id="r_02" value="Фирменый стиль" name="r_02">
+                                    <label for="r_02" class="radio-label">Фирменый стиль</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input class="field" type="checkbox" id="r_03" value="Разработка сайта" name="r_03">
+                                    <label for="r_03" class="radio-label">Разработка сайта</label>
+                                </div>
+                                <div class="radio-btn">
+                                    <input class="field" type="checkbox" id="r_04" value="Продвижение" name="r_04">
+                                    <label for="r_04" class="radio-label">Продвижение</label>
+                                </div>
+                            </div>
+                        </div>
+                        <input class="placeH_class" type="text" placeholder="Ваше имя *" />
+                        <input class="placeH_class" type="text" placeholder="E-mail *" />
                     </div>
-                    <textarea placeholder="Напишите нам сообщение или оставьте телефон для обратного звонка"></textarea>
+                    <textarea class="placeH_class" placeholder="Напишите нам сообщение или оставьте телефон для обратного звонка"></textarea>
                     <div class="right breaf">
                         <p>У вас уже есть ТЗ или заполненный бриф?</p>
                         <input type="file" />
