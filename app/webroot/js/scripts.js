@@ -110,10 +110,10 @@ $(document).ready(function() {
   $('.input_drop').on('click',function(e) {
       e.stopPropagation();
       if ($(this).hasClass('a')) {
-        $(this).find('.drop_block').slideUp();
+        $(this).find('.drop_block').slideUp('500');
         $(this).removeClass('a');
       } else {
-        $(this).find('.drop_block').slideDown();
+        $(this).find('.drop_block').slideDown('500');
         $(this).addClass('a');
       }
   });  
