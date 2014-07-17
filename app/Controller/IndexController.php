@@ -1,6 +1,6 @@
 <?php
 class IndexController extends AppController{
-
+//sdf
     public function index(){
         $this->layout = 'index';
         $page_title = 'Главная страница';
