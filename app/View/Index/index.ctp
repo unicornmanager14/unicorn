@@ -73,8 +73,7 @@
             </ul>
 
             <div class="tabs_content">
-                <div id="tab1" class="tabs_content_div ds_block">
-
+                <div id="tab1" class="tabs_content_div ds_block design_tab not_fulfilled">
                     <div class="about">
                         <h3>При разработке дизайна веб-сайта мы предлагаем на выбор несколько концепций дизайна.</h3>
                         <p>Разработка всегда начинается с подготовки  индивидуального брифа на дизайн, который  разрабатывается в отдельности под каждый  проект и клиента. </p>
@@ -89,8 +88,31 @@
                     </div>
 
                 </div>
-                <div id="tab2" class="tabs_content_div">2</div>
-                <div id="tab3" class="tabs_content_div">3</div>
+                <div id="tab2" class="tabs_content_div development_tab">
+                    <div class="about">
+                        <h3>При разработке дизайна веб-сайта мы предлагаем на выбор несколько концепций дизайна.</h3>
+                        <p>Разработка всегда начинается с подготовки  индивидуального брифа на дизайн, который  разрабатывается в отдельности под каждый  проект и клиента.</p>
+                       <div class="iphone"><img src="img/our_services/development/iphone.png" alt="iphone"></div>
+                       <div class="computer"><img src="img/our_services/development/computer.png" alt="computer"></div>
+                       <div class="cogwheel"><img src="img/our_services/development/cogwheel.png" alt="cogwheel"></div>
+                       <div class="ipad"><img src="img/our_services/development/ipad.png" alt="ipad"></div>
+                       <div class="papper"><img src="img/our_services/development/papper.png" alt="papper"></div>
+                       <div class="bottle"><img src="img/our_services/development/bottle.png" alt="bottle"></div>
+                    </div>
+                </div>
+                <div id="tab3" class="tabs_content_div seo_tab">
+                    <div class="about">
+                        <h3>Наша задача — рассказать о вашей фирмы и о вашем продукте в Сети так, чтоб не оставалось сомнения в выборе непосредственно вашей компании.</h3>
+                        <p>Для достижения целей мы используем исключительно проверенные ресурсы, тщательнейшим образом подходим к маркетинговому сообщению и носителю, планируем оптимальный срок длительности маркетинговой кампании, помня о бюджете.</p>
+                       <div class="papper_02"><img src="img/our_services/seo/papper_02.png" alt=""></div>
+                       <div class="papper_03"><img src="img/our_services/seo/papper_03.png" alt=""></div>
+                       <div class="papper_04"><img src="img/our_services/seo/papper_04.png" alt=""></div>
+                       <div class="papper_01"><img src="img/our_services/seo/papper_01.png" alt=""></div>
+                       <div class="ruler"><img src="img/our_services/seo/ruler.png" alt=""></div>
+                       <div class="folder"><img src="img/our_services/seo/folder.png" alt=""></div>
+                       <div class="calculator"><img src="img/our_services/seo/calculator.png" alt=""></div>
+                    </div>
+                </div>
                 <div id="tab4" class="tabs_content_div">4</div>
             </div>
         </div>

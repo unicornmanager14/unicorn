@@ -1,8 +1,56 @@
 $(document).ready(function() {
 
-    //Табы на Главной странице
 
+      function Tab_1_On(){  // Анимация Таба Дизайна
+          $('.tabs_content .design_tab .glasses').animate({'left':'255px'},400);
+          $('.tabs_content .design_tab .cofee').animate({'left':'395px'},500);
+          $('.tabs_content .design_tab .fan').animate({'left':'515px'},600);
+          $('.tabs_content .design_tab .triangle').animate({'right':'287px'},700);
+          $('.tabs_content .design_tab .pancil').animate({'right':'235px'},800);
+          $('.tabs_content .design_tab .flash').animate({'right':'435px'},900);
+          $('.tabs_content .design_tab .notebook').animate({'right':'0'},1000);
+      };
+      function Tab_1_Off(){   // Онуление Таба Дизайна
+          $('.tabs_content .design_tab .glasses').css({'left':'2500px'});
+          $('.tabs_content .design_tab .cofee').css({'left':'2500px'});
+          $('.tabs_content .design_tab .fan').css({'left':'2500px'});
+          $('.tabs_content .design_tab .triangle').css({'right':'-2000px'});
+          $('.tabs_content .design_tab .pancil').css({'right':'-2000px'});
+          $('.tabs_content .design_tab .flash').css({'right':'-2000px'});
+          $('.tabs_content .design_tab .notebook').css({'right':'-2000px'});
+      };
+        function Tab_2_On(){  // Анимация Таба Разработка
+            $('.tabs_content .development_tab .iphone').animate({'right':'423px'},400);
+            $('.tabs_content .development_tab .ipad').animate({'right':'326px'},500);
+            $('.tabs_content .development_tab .computer').animate({'right':'91px'},600);
+            $('.tabs_content .development_tab .cogwheel').animate({'right':'177px'},800);
+            $('.tabs_content .development_tab .papper').animate({'right':'303px'},1000);
+            $('.tabs_content .development_tab .bottle').animate({'right':'415px'},1100);
+        };
+        function Tab_2_Off(){   // Онуление Таба Разработка
+            $('.tabs_content .development_tab .iphone').stop().css({'right':'-2000px'});
+            $('.tabs_content .development_tab .ipad').stop().css({'right':'-2000px'});
+            $('.tabs_content .development_tab .computer').stop().css({'right':'-2000px'});
+            $('.tabs_content .development_tab .cogwheel').stop().css({'right':'-2000px'});
+            $('.tabs_content .development_tab .papper').stop().css({'right':'-2000px'});
+            $('.tabs_content .development_tab .bottle').stop().css({'right':'-2000px'});
+            // alert('2');
+        };
 
+    // Анимация первого таба при его первом появлении в зоне видимости
+      // var bottom = $(window).height() - $('.tabs_content .tabs_content_div .about p').offset().top;
+      var link = $('#order_project');
+      var position = link.offset();
+      var bottom = $(window).height() - position.top;
+      bottom = (0 - bottom) - 200;
+      $(document).scroll(function() {
+        if (($(document).scrollTop() >= bottom) && ($('#tab1').hasClass('not_fulfilled'))) {
+          Tab_1_On();   
+          $('#tab1').removeClass('not_fulfilled'); 
+        }
+      }); 
+
+          //Табы на Главной странице
     $('.tabs li').on('click', function(event){
         event.preventDefault();
 
@@ -12,19 +60,27 @@ $(document).ready(function() {
         if($(this).hasClass('tab_design')){
             $('.tabs_content_div').removeClass('ds_block').hide();
             $('#tab1').show();
+            Tab_1_On();
+            Tab_2_Off();
         }
         else if($(this).hasClass('tab_dev')){
             $('.tabs_content_div').removeClass('ds_block').hide();
             $('#tab2').show();
+            Tab_1_Off();
+            Tab_2_On();
                 //addClass('ds_block');
         }
         else if($(this).hasClass('tab_seo')){
             $('.tabs_content_div').removeClass('ds_block').hide();
             $('#tab3').show();
+            Tab_1_Off();
+            Tab_2_Off();
         }
         else if($(this).hasClass('tab_consult')){
             $('.tabs_content_div').removeClass('ds_block').hide();
             $('#tab4').show();
+            Tab_1_Off();
+            Tab_2_Off();
         }
     });
 
@@ -137,5 +193,9 @@ $(document).ready(function() {
     }
         
    });   
+
+
+
+
 
 });

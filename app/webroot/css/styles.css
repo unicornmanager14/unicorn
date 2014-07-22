@@ -275,6 +275,7 @@ header{
 /*===---------------------------------------------=== Наши услуги ===----------------------------------------------===*/
 #our_services{
     padding-bottom: 20px;
+    overflow: hidden;
 }
 .tabs ul li a{
     display: block;
@@ -330,59 +331,127 @@ header{
     display: none;
     padding-top: 60px;
     position: relative;
+    min-height: 430px;
 }
 .tabs_content .tabs_content_div .about{
-    width: 430px;
+    width: 522px;
     font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
-    padding-left: 50px;
+    padding-left: 41px;
 }
 .tabs_content .tabs_content_div .about h3{
     color: #b473cf;
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: normal;
     padding-bottom: 30px;
 }
 .tabs_content .tabs_content_div .about p{
     color: #2a2a2a;
-    font-size: 14px;
+    font-size: 13px;
     line-height: 24px;
 }
 .tabs_content .tabs_content_div .notebook{
     position: absolute;
-    right: 0;
+    right: -2000px;
     top: 65px;
 }
 .tabs_content .tabs_content_div .flash{
     position: absolute;
-    right: 435px;
+    right: -2000px;
     top: 185px;
 }
 .tabs_content .tabs_content_div .glasses{
     position: absolute;
-    left: 255px;
+    left: 2500px;
     bottom: 0;
 }
 .tabs_content .tabs_content_div .cofee{
     position: absolute;
-    left: 395px;
+    left: 2500px;
     bottom: 50px;
 }
 .tabs_content .tabs_content_div .fan{
     position: absolute;
-    left: 515px;
+    left: 2500px;
     bottom: -10px;
 }
 .tabs_content .tabs_content_div .pancil{
     position: absolute;
-    right: 235px;
+    right: -2000px;
     bottom: -5px;
 }
 .tabs_content .tabs_content_div .triangle{
     position: absolute;
-    right: 287px;
+    right: -2000px;
     bottom: -10px;
 }
+.tabs_content .development_tab .about h3 {
+    color: #478cc2;
+}
+.tabs_content .development_tab .computer {
+    position: absolute;
+    top: 92px;
+    right: -2000px;
+}
+.tabs_content .development_tab .ipad {
+    position: absolute;
+    top: 195px;
+    right: -2000px;
+}
+.tabs_content .development_tab .iphone {
+    position: absolute;
+    top: 232px;
+    right: -2000px;
+}
+.tabs_content .development_tab .bottle {
+    position: absolute;
+    top: 270px;
+    right: -2000px;
+}
+.tabs_content .development_tab .cogwheel {
+    position: absolute;
+    top: 68px;
+    right: -2000px;
+}
+.tabs_content .development_tab .papper {
+    position: absolute;
+    top: 30px;
+    right: -2000px;
+}
+.tabs_content .seo_tab .about h3 {
+    color:#f1764e; 
+}
+.tabs_content .seo_tab .folder {
+    position: absolute;
+    right: 84px;
+    top: 46px;
+} 
+.tabs_content .seo_tab .ruler {
+    position: absolute;
+    right: 273px;
+    top: 136px;
+} 
+.tabs_content .seo_tab .papper_03 {
+    position: absolute;
+    right: 148px;
+    top: 169px;
+} 
+.tabs_content .seo_tab .papper_04 {
+    position: absolute;
+    right: 190px;
+    top: 169px;
+} 
+.tabs_content .seo_tab .papper_02 {
+    position: absolute;
+    right: 207px;
+    top: 214px;
+} 
+.tabs_content .seo_tab .papper_01 {
+    position: absolute;
+    right: 454px;
+    top: 289px;
+} 
+
 /*===-----------------------------------------=== Заказать проект ===----------------------------------------------===*/
 #order_project{
     font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
