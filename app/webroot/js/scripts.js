@@ -20,21 +20,35 @@ $(document).ready(function() {
           $('.tabs_content .design_tab .notebook').css({'right':'-2000px'});
       };
         function Tab_2_On(){  // Анимация Таба Разработка
-            $('.tabs_content .development_tab .iphone').animate({'right':'423px'},400);
-            $('.tabs_content .development_tab .ipad').animate({'right':'326px'},500);
-            $('.tabs_content .development_tab .computer').animate({'right':'91px'},600);
-            $('.tabs_content .development_tab .cogwheel').animate({'right':'177px'},800);
-            $('.tabs_content .development_tab .papper').animate({'right':'303px'},1000);
-            $('.tabs_content .development_tab .bottle').animate({'right':'415px'},1100);
+            $('.tabs_content .development_tab .html').animate({'right':'351px'},400);
+            $('.tabs_content .development_tab .hdd').animate({'right':'241px'},500);
+            $('.tabs_content .development_tab .macbook').animate({'right':'-64px'},600);
+            $('.tabs_content .development_tab .pizza').animate({'right':'365px'},800);
         };
         function Tab_2_Off(){   // Онуление Таба Разработка
-            $('.tabs_content .development_tab .iphone').stop().css({'right':'-2000px'});
-            $('.tabs_content .development_tab .ipad').stop().css({'right':'-2000px'});
-            $('.tabs_content .development_tab .computer').stop().css({'right':'-2000px'});
-            $('.tabs_content .development_tab .cogwheel').stop().css({'right':'-2000px'});
-            $('.tabs_content .development_tab .papper').stop().css({'right':'-2000px'});
-            $('.tabs_content .development_tab .bottle').stop().css({'right':'-2000px'});
+            $('.tabs_content .development_tab .html').css({'right':'-2000px'});
+            $('.tabs_content .development_tab .hdd').css({'right':'-2000px'});
+            $('.tabs_content .development_tab .macbook').css({'right':'-2000px'});
+            $('.tabs_content .development_tab .pizza').css({'right':'-2000px'});
             // alert('2');
+        };
+         function Tab_3_On(){  // Анимация Таба Продвижения
+            $('.tabs_content .seo_tab .papper_02').animate({'right':'207px'},400);
+            $('.tabs_content .seo_tab .papper_03').animate({'right':'148px'},500);
+            $('.tabs_content .seo_tab .papper_04').animate({'right':'190px'},600);
+            $('.tabs_content .seo_tab .papper_01').animate({'right':'454px'},800);
+            $('.tabs_content .seo_tab .ruler').animate({'right':'273px'},1000);
+            $('.tabs_content .seo_tab .folder').animate({'right':'84px'},1100);
+            $('.tabs_content .seo_tab .calculator').animate({'right':'76px'},1200);
+        };
+         function Tab_3_Off(){  // Онуление Таба Продвижения
+            $('.tabs_content .seo_tab .papper_02').animate({'right':'-2000px'},400);
+            $('.tabs_content .seo_tab .papper_03').animate({'right':'-2000px'},500);
+            $('.tabs_content .seo_tab .papper_04').animate({'right':'-2000px'},600);
+            $('.tabs_content .seo_tab .papper_01').animate({'right':'-2000px'},800);
+            $('.tabs_content .seo_tab .ruler').animate({'right':'-2000px'},1000);
+            $('.tabs_content .seo_tab .folder').animate({'right':'-2000px'},1100);
+            $('.tabs_content .seo_tab .calculator').animate({'right':'-2000px'},1200);
         };
 
     // Анимация первого таба при его первом появлении в зоне видимости
@@ -62,12 +76,14 @@ $(document).ready(function() {
             $('#tab1').show();
             Tab_1_On();
             Tab_2_Off();
+            Tab_3_Off();
         }
         else if($(this).hasClass('tab_dev')){
             $('.tabs_content_div').removeClass('ds_block').hide();
             $('#tab2').show();
             Tab_1_Off();
             Tab_2_On();
+            Tab_3_Off();
                 //addClass('ds_block');
         }
         else if($(this).hasClass('tab_seo')){
@@ -75,12 +91,14 @@ $(document).ready(function() {
             $('#tab3').show();
             Tab_1_Off();
             Tab_2_Off();
+            Tab_3_On();
         }
         else if($(this).hasClass('tab_consult')){
             $('.tabs_content_div').removeClass('ds_block').hide();
             $('#tab4').show();
             Tab_1_Off();
             Tab_2_Off();
+            Tab_3_Off();
         }
     });
 
