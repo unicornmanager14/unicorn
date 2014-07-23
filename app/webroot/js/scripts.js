@@ -11,13 +11,13 @@ $(document).ready(function() {
           $('.tabs_content .design_tab .notebook').animate({'right':'0'},1000);
       };
       function Tab_1_Off(){   // Онуление Таба Дизайна
-          $('.tabs_content .design_tab .glasses').css({'left':'2500px'});
-          $('.tabs_content .design_tab .cofee').css({'left':'2500px'});
-          $('.tabs_content .design_tab .fan').css({'left':'2500px'});
-          $('.tabs_content .design_tab .triangle').css({'right':'-2000px'});
-          $('.tabs_content .design_tab .pancil').css({'right':'-2000px'});
-          $('.tabs_content .design_tab .flash').css({'right':'-2000px'});
-          $('.tabs_content .design_tab .notebook').css({'right':'-2000px'});
+          $('.tabs_content .design_tab .glasses').stop().css({'left':'2500px'});
+          $('.tabs_content .design_tab .cofee').stop().css({'left':'2500px'});
+          $('.tabs_content .design_tab .fan').stop().css({'left':'2500px'});
+          $('.tabs_content .design_tab .triangle').stop().css({'right':'-2000px'});
+          $('.tabs_content .design_tab .pancil').stop().css({'right':'-2000px'});
+          $('.tabs_content .design_tab .flash').stop().css({'right':'-2000px'});
+          $('.tabs_content .design_tab .notebook').stop().css({'right':'-2000px'});
       };
         function Tab_2_On(){  // Анимация Таба Разработка
             $('.tabs_content .development_tab .html').animate({'right':'351px'},400);
@@ -26,10 +26,10 @@ $(document).ready(function() {
             $('.tabs_content .development_tab .pizza').animate({'right':'365px'},800);
         };
         function Tab_2_Off(){   // Онуление Таба Разработка
-            $('.tabs_content .development_tab .html').css({'right':'-2000px'});
-            $('.tabs_content .development_tab .hdd').css({'right':'-2000px'});
-            $('.tabs_content .development_tab .macbook').css({'right':'-2000px'});
-            $('.tabs_content .development_tab .pizza').css({'right':'-2000px'});
+            $('.tabs_content .development_tab .html').stop().css({'right':'-2000px'});
+            $('.tabs_content .development_tab .hdd').stop().css({'right':'-2000px'});
+            $('.tabs_content .development_tab .macbook').stop().css({'right':'-2000px'});
+            $('.tabs_content .development_tab .pizza').stop().css({'right':'-2000px'});
             // alert('2');
         };
          function Tab_3_On(){  // Анимация Таба Продвижения
@@ -42,13 +42,29 @@ $(document).ready(function() {
             $('.tabs_content .seo_tab .calculator').animate({'right':'76px'},1200);
         };
          function Tab_3_Off(){  // Онуление Таба Продвижения
-            $('.tabs_content .seo_tab .papper_02').animate({'right':'-2000px'},400);
-            $('.tabs_content .seo_tab .papper_03').animate({'right':'-2000px'},500);
-            $('.tabs_content .seo_tab .papper_04').animate({'right':'-2000px'},600);
-            $('.tabs_content .seo_tab .papper_01').animate({'right':'-2000px'},800);
-            $('.tabs_content .seo_tab .ruler').animate({'right':'-2000px'},1000);
-            $('.tabs_content .seo_tab .folder').animate({'right':'-2000px'},1100);
-            $('.tabs_content .seo_tab .calculator').animate({'right':'-2000px'},1200);
+            $('.tabs_content .seo_tab .papper_02').stop().css({'right':'-2000px'});
+            $('.tabs_content .seo_tab .papper_03').stop().css({'right':'-2000px'});
+            $('.tabs_content .seo_tab .papper_04').stop().css({'right':'-2000px'});
+            $('.tabs_content .seo_tab .papper_01').stop().css({'right':'-2000px'});
+            $('.tabs_content .seo_tab .ruler').stop().css({'right':'-2000px'});
+            $('.tabs_content .seo_tab .folder').stop().css({'right':'-2000px'});
+            $('.tabs_content .seo_tab .calculator').stop().css({'right':'-2000px'});
+        };
+         function Tab_4_On(){  // Анимация Таба Продвижения
+            $('.tabs_content .counseling_tab .papper').animate({'right':'236px'},400);
+            $('.tabs_content .counseling_tab .notebook').animate({'right':'159px'},500);
+            $('.tabs_content .counseling_tab .pan').animate({'right':'155px'},600);
+            $('.tabs_content .counseling_tab .phone').animate({'right':'18px'},800);
+            $('.tabs_content .counseling_tab .cup_l').animate({'right':'381px'},1000);
+            $('.tabs_content .counseling_tab .cup_r').animate({'right':'49px'},1000);
+        };
+         function Tab_4_Off(){  // Онуление Таба Продвижения
+            $('.tabs_content .counseling_tab .papper').stop().css({'right':'-2000px'});
+            $('.tabs_content .counseling_tab .notebook').stop().css({'right':'-2000px'});
+            $('.tabs_content .counseling_tab .pan').stop().css({'right':'-2000px'});
+            $('.tabs_content .counseling_tab .phone').stop().css({'right':'-2000px'});
+            $('.tabs_content .counseling_tab .cup_l').stop().css({'right':'-2000px'});
+            $('.tabs_content .counseling_tab .cup_r').stop().css({'right':'-2000px'});
         };
 
     // Анимация первого таба при его первом появлении в зоне видимости
@@ -77,25 +93,29 @@ $(document).ready(function() {
             Tab_1_On();
             Tab_2_Off();
             Tab_3_Off();
+            Tab_4_Off();
         }
         else if($(this).hasClass('tab_dev')){
             $('.tabs_content_div').removeClass('ds_block').hide();
             $('#tab2').show();
-            Tab_1_Off();
             Tab_2_On();
+            Tab_1_Off();
             Tab_3_Off();
+            Tab_4_Off();
                 //addClass('ds_block');
         }
         else if($(this).hasClass('tab_seo')){
             $('.tabs_content_div').removeClass('ds_block').hide();
             $('#tab3').show();
+            Tab_3_On();
             Tab_1_Off();
             Tab_2_Off();
-            Tab_3_On();
+            Tab_4_Off();
         }
         else if($(this).hasClass('tab_consult')){
             $('.tabs_content_div').removeClass('ds_block').hide();
             $('#tab4').show();
+            Tab_4_On();
             Tab_1_Off();
             Tab_2_Off();
             Tab_3_Off();

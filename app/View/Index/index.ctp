@@ -66,10 +66,10 @@
     <section id="our_services">
         <div class="tabs">
             <ul class="unstyled full_width">
-                <li class="tab_design active"><a href="#">Дизайн</a></li>
-                <li class="tab_dev"><a href="#">Разработка</a></li>
-                <li class="tab_seo"><a href="#">Продвижение</a></li>
-                <li class="tab_consult"><a href="#">Консультирование</a></li>
+                <li class="tab_design active"><a href="#"><span>Дизайн</span></a></li>
+                <li class="tab_dev"><a href="#"><span>Разработка</span></a></li>
+                <li class="tab_seo"><a href="#"><span>Продвижение</span></a></li>
+                <li class="tab_consult"><a href="#"><span>Консультирование</span></a></li>
             </ul>
 
             <div class="tabs_content">
@@ -111,7 +111,18 @@
                        <div class="calculator"><img src="img/our_services/seo/calculator.png" alt="calculator"></div>
                     </div>
                 </div>
-                <div id="tab4" class="tabs_content_div">4</div>
+                <div id="tab4" class="tabs_content_div counseling_tab">
+                    <div class="about">
+                        <h3>Наша задача — рассказать о вашей фирмы и о вашем продукте в Сети так, чтоб не оставалось сомнения в выборе непосредственно вашей компании.</h3>
+                        <p>Для достижения целей мы используем исключительно проверенные ресурсы, тщательнейшим образом подходим к маркетинговому сообщению и носителю, планируем оптимальный срок длительности маркетинговой кампании, помня о бюджете.</p>
+                       <div class="papper"><img src="img/our_services/counseling/papper.png" alt="papper"></div>
+                       <div class="notebook"><img src="img/our_services/counseling/notebook.png" alt="notebook"></div>
+                       <div class="pan"><img src="img/our_services/counseling/pan.png" alt="pan"></div>
+                       <div class="phone"><img src="img/our_services/counseling/phone.png" alt="phone"></div>
+                       <div class="cup_l"><img src="img/our_services/counseling/cup_l.png" alt="cup_l"></div>
+                       <div class="cup_r"><img src="img/our_services/counseling/cup_r.png" alt="cup_r"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

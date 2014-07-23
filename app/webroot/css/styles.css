@@ -63,6 +63,7 @@
 /**********************************************************************************************************************/
 body{
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
+    background: #f7f7f7;
 }
 
 
@@ -114,16 +115,17 @@ body{
 }
 /* read more link */
 .readmore{
-    background: url("../img/readmore.png") no-repeat;
+    background: url("../img/readmore.png") 0 1px no-repeat;
     padding-left: 27px;
     color: #ea3a15;
-    font-size: 1.2em;
-    font-family: 'uni_sans-thin', Arial, sans-serif;
+    font-size: 14px;
+    font-family: 'PFAgoraSansPro-Light', sans-serif;
     position: relative;
     top: 45px;
     text-decoration: none;
     margin: 0 auto;
     display: inline-block;
+    text-transform: uppercase;
 }
 .readmore:hover{
     text-decoration: underline;
@@ -265,7 +267,7 @@ header{
     z-index: 1;
 }
 #who_we_are p{
-    font-family: 'PFAgoraSansPro-Thin', Arial, sans-serif;
+    font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
     font-size: 1.8em;
     line-height: 30px;
 }
@@ -281,50 +283,60 @@ header{
     display: block;
     line-height: 50px;
     height: 50px;
-    padding: 0 70px;
     color: #010101;
-    font-family: 'Uni_Sans-Thin', Arial, sans-sans-serif;
+    font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
+    text-transform: uppercase;
     font-size: 14px;
     position: relative;
+    text-decoration: none;
+}
+.tabs ul li a span {
+    border-bottom: 1px dotted;
 }
 .tabs ul li.active a{
     color: #ffffff;
     text-decoration: none;
 }
+.tabs ul li.active a span {
+    border: 0;
+}
+.tabs .unstyled {
+    padding: 0 18px;
+}
 /* --Дизайн-- */
 #tab1{
     min-height: 430px;
 }
-.tabs ul li.tab_design a{
-    padding-left: 70px;
-    background: url("../img/our_services/tabs/pencil-static.png") no-repeat 35px 12px;
+.tabs ul li.tab_design {
+    background: url("../img/our_services/tabs/pencil-static.png") no-repeat 38px 12px;
+    padding: 0 62px 0 74px;;
 }
-.tabs ul li.tab_design.active a{
-    background: #b473cf url("../img/our_services/tabs/pencil-active.png") no-repeat 35px 12px;
+.tabs ul li.tab_design.active {
+    background: #b473cf url("../img/our_services/tabs/pencil-active.png") no-repeat 38px 12px;
 }
 /* --Разработка-- */
-.tabs ul li.tab_dev a{
-    padding-left: 70px;
-    background: url("../img/our_services/tabs/gears-static.png") no-repeat 35px 12px;
+.tabs ul li.tab_dev {
+    background: url("../img/our_services/tabs/gears-static.png") no-repeat 32px 12px;
+    padding: 0 36px 0 75px;
 }
-.tabs ul li.tab_dev.active a{
-    background: #478cc2 url("../img/our_services/tabs/gears-active.png") no-repeat 35px 12px;
+.tabs ul li.tab_dev.active {
+    background: #478cc2 url("../img/our_services/tabs/gears-active.png") no-repeat 32px 12px;
 }
 /* --Продвижение-- */
-.tabs ul li.tab_seo a{
-    padding-left: 70px;
-    background: url("../img/our_services/tabs/seo-static.png") no-repeat 35px 12px;
+.tabs ul li.tab_seo {
+    background: url("../img/our_services/tabs/seo-static.png") no-repeat 30px 12px;
+    padding: 0 25px 0 65px;
 }
-.tabs ul li.tab_seo.active a{
-    background: #c95530 url("../img/our_services/tabs/seo-active.png") no-repeat 35px 12px;
+.tabs ul li.tab_seo.active {
+    background: #c95530 url("../img/our_services/tabs/seo-active.png") no-repeat 30px 12px;
 }
 /* --Консультирование-- */
-.tabs ul li.tab_consult a{
-    padding-left: 70px;
-    background: url("../img/our_services/tabs/consult-static.png") no-repeat 35px 12px;
+.tabs ul li.tab_consult {
+    background: url("../img/our_services/tabs/consult-static.png") no-repeat 24px 12px;
+    padding: 0 24px 0 69px;
 }
-.tabs ul li.tab_consult.active a{
-    background: #f1ae4e url("../img/our_services/tabs/consult-active.png") no-repeat 35px 12px;
+.tabs ul li.tab_consult.active {
+    background: #f1ae4e url("../img/our_services/tabs/consult-active.png") no-repeat 24px 12px;
 }
 /* --Контент табов-- */
 .tabs_content .tabs_content_div{
@@ -338,6 +350,7 @@ header{
     font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
     padding-left: 41px;
 }
+/* Таб дизайна */
 .tabs_content .tabs_content_div .about h3{
     color: #b473cf;
     text-transform: uppercase;
@@ -385,6 +398,7 @@ header{
     right: -2000px;
     bottom: -10px;
 }
+/* Таб разработки */
 .tabs_content .development_tab .about h3 {
     color: #478cc2;
 }
@@ -438,6 +452,7 @@ header{
     top: 293px;
     right: -2000px;    
 }
+/* Сео таб */
 .tabs_content .seo_tab .about h3 {
     color:#f1764e; 
 }
@@ -476,6 +491,40 @@ header{
     right: -2000px;
     top: 298px;
 } 
+/* Таб консультации */
+.tabs_content .counseling_tab .about h3 {
+    color: #f1ae4e;
+}
+.tabs_content .counseling_tab .papper {
+    position: absolute;
+    top: 92px;
+    right: -2000px;
+}
+.tabs_content .counseling_tab .notebook {
+    position: absolute;
+    top: 151px;
+    right: -2000px;
+}
+.tabs_content .counseling_tab .pan {
+    position: absolute;
+    top: 326px;
+    right: -2000px;
+}
+.tabs_content .counseling_tab .phone {
+    position: absolute;
+    top: 189px;
+    right: -2000px;
+}
+.tabs_content .counseling_tab .cup_l {
+    position: absolute;
+    top: 280px;
+    right: -2000px;
+}
+.tabs_content .counseling_tab .cup_r {
+    position: absolute;
+    top: 73px;
+    right: -2000px;
+}
 
 /*===-----------------------------------------=== Заказать проект ===----------------------------------------------===*/
 #order_project{
