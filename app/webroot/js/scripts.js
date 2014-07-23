@@ -51,12 +51,12 @@ $(document).ready(function() {
             $('.tabs_content .seo_tab .calculator').stop().css({'right':'-2000px'});
         };
          function Tab_4_On(){  // Анимация Таба Продвижения
-            $('.tabs_content .counseling_tab .papper').animate({'right':'236px'},400);
-            $('.tabs_content .counseling_tab .notebook').animate({'right':'159px'},500);
-            $('.tabs_content .counseling_tab .pan').animate({'right':'155px'},600);
+            $('.tabs_content .counseling_tab .cup_l').animate({'right':'381px'},400);
+            $('.tabs_content .counseling_tab .papper').animate({'right':'236px'},500);
+            $('.tabs_content .counseling_tab .notebook').animate({'right':'159px'},600);
+            $('.tabs_content .counseling_tab .pan').animate({'right':'155px'},700);
             $('.tabs_content .counseling_tab .phone').animate({'right':'18px'},800);
-            $('.tabs_content .counseling_tab .cup_l').animate({'right':'381px'},1000);
-            $('.tabs_content .counseling_tab .cup_r').animate({'right':'49px'},1000);
+            $('.tabs_content .counseling_tab .cup_r').animate({'right':'49px'},900);
         };
          function Tab_4_Off(){  // Онуление Таба Продвижения
             $('.tabs_content .counseling_tab .papper').stop().css({'right':'-2000px'});
