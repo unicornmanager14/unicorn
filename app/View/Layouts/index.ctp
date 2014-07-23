@@ -49,7 +49,7 @@
     <div class="order_project_content">
         <div class="container">
             <ul class="unstyled full_width">
-                <li class="first">
+                <li class="first"><div class="round or"><span>или</span></div>
                     <h3>Заказать проект</h3>
                     <h4>Узнать цену</h4>
                 </li>

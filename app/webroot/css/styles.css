@@ -107,11 +107,17 @@ body{
     line-height: 47px;
     text-align: center;
 }
-.round a{
-    font-family: 'Uni_Sans-Thin-Italic', "Times New Roman", sans-sans-serif;
+.round span,.round a {
+    font-family: 'PFAgoraSansPro-Thin', sans-serif;
     color: #a6a6a6;
-    text-transform: none;
+    text-transform: uppercase;
     display: block;
+    font-size: 13px;
+    font-style: italic;
+    text-decoration: none;
+}
+.round a:hover {
+    color: #1f1f1f;
 }
 /* read more link */
 .readmore{
@@ -565,6 +571,16 @@ header{
     text-transform: uppercase;
     position: relative;
 }
+#order_project .order_project_content .third {
+    transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    -ms-transition: opacity .2s;
+}
+#order_project .order_project_content .third:hover {
+    opacity: .8;
+}
 #order_project .order_project_content .third button:after{
     content: '';
     display: block;
@@ -612,6 +628,14 @@ header{
     font-family: 'PFAgoraSansPro-Bold', sans-serif;
     background-color: #fff;
     border: 0;
+    transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -webkit-transition: opacity .2s;
+    -o-transition: opacity .2s;
+    -ms-transition: opacity .2s;
+}
+#order_project .order_project_content .contact_form input[type='submit']:hover {
+    opacity: .8;
 }
 #order_project .input_drop {
     position: relative;
@@ -648,9 +672,10 @@ header{
 }
 #order_project .input_drop .radio-btn {padding-left: 8px;margin: 3px 0;}
 #order_project .input_drop input[type=checkbox] {display: none;}
-#order_project .input_drop input[type=checkbox]+.radio-label { background: url("../img/order/radio_btn.png") 0 6px no-repeat;padding-bottom: 3px; padding-left: 24px; padding-top: 3px;}
+#order_project .input_drop input[type=checkbox]+.radio-label { transition: opacity .2s;-webkit-transition: opacity .2s;-o-transition: opacity .2s;-moz-transition: opacity .2s;-ms-transition: opacity .2s;background: url("../img/order/radio_btn.png") 0 6px no-repeat;padding-bottom: 3px; padding-left: 24px; padding-top: 3px;}
 #order_project .input_drop input[type=checkbox]:checked+.radio-label { background: url("../img/order/radio_btn.png") 0 -41px no-repeat;padding-bottom: 3px; padding-left: 24px; padding-top: 3px; color: #ffffff;}
 #order_project .input_drop .radio-label {font-family: 'PFAgoraSansPro-Regular',sans-serif;font-size: 14px; cursor: pointer; transition: color .2s;}
+#order_project .input_drop input[type=checkbox]+.radio-label:hover {opacity: .8;}
 
 #order_project .order_project_content .contact_form input::-moz-placeholder,
 #order_project .order_project_content .contact_form textarea::-moz-placeholder {
@@ -661,6 +686,16 @@ header{
 #order_project .order_project_content .contact_form textarea::-webkit-input-pl {
     opacity: 1;
     color: #ffffff;
+}
+#order_project .or {
+    position: absolute;
+    background: url("../img/round_fff.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    left: 179px;
+    top: 12px;
+}
+#order_project .or span {
+    color: #fefefe;
+    font-family: 'PFAgoraSansPro-Light', sans-serif;
 }
 
 /*===--------------------------------------------=== Social Media ===----------------------------------------------===*/
