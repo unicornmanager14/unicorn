@@ -244,8 +244,8 @@ $(document).ready(function() {
           $('#order_project .papper').animate({'bottom':'-92px'},800);
           $('#order_project .envelope').animate({'bottom':'-158px'},1000);
           $('#order_project .pan').animate({'bottom':'-88px'},900);
-          $('#order_project .konvert').animate({'bottom':'-124px'},800);
-          $('#order_project .calculator').animate({'bottom':'19px'},900);
+          $('#order_project .konvert').animate({'bottom':'-124px'},1100);
+          $('#order_project .calculator').animate({'bottom':'19px'},1200);
         }
       }); 
 
