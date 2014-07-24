@@ -234,6 +234,23 @@ $(document).ready(function() {
 
 
 
+// Анимация картинок форы заявки при попадании их в зону видимости
+      var link2 = $('#social_media');
+      var position2 = link2.offset();
+      var bottom2 = $(window).height() - position2.top;
+      bottom2 = (0 - bottom2) - 200;
+      $(document).scroll(function() {
+        if ( $(document).scrollTop() >= bottom2 ) {
+          $('#order_project .papper').animate({'bottom':'-92px'},600);
+          $('#order_project .envelope').animate({'bottom':'-158px'},800);
+          $('#order_project .pan').animate({'bottom':'-88px'},700);
+          $('#order_project .konvert').animate({'bottom':'-124px'},600);
+          $('#order_project .calculator').animate({'bottom':'19px'},700);
+        }
+      }); 
+
+
+
 
 
 });
