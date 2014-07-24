@@ -300,6 +300,9 @@ header{
         padding-bottom: 20px;
        /* overflow: hidden;*/
 }
+.tabs ul li {
+    cursor: pointer;
+}
 .tabs ul li a{
     display: block;
     line-height: 50px;
@@ -563,6 +566,7 @@ header{
 #order_project .order_project_content{
     background: url("../img/order/bg.png") repeat;
     padding: 65px 0 90px 0;
+    overflow: hidden;
 }
 #order_project .order_project_content ul{
     height: 145px;
@@ -711,6 +715,34 @@ header{
 #order_project .or span {
     color: #fefefe;
     font-family: 'PFAgoraSansPro-LightItalic', sans-serif;
+}
+
+
+
+#order_project .papper {
+    position: absolute;
+    bottom: -2000px;
+    left: 29px; 
+}
+#order_project .envelope {
+    position: absolute;
+    bottom: -2000px;
+    left: -36px;
+}
+#order_project .pan {
+    position: absolute;
+    bottom: -2000px;
+    left: 188px;
+}
+#order_project .konvert {
+    position: absolute;
+    bottom: -2000px;
+    right: 19px;
+}
+#order_project .calculator {
+    position: absolute;
+    bottom: -2000px;
+    right: -36px;
 }
 
 /*===--------------------------------------------=== Social Media ===----------------------------------------------===*/
