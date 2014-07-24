@@ -10,6 +10,13 @@
 /*===----------------------------------------=== Подключаемые шрифты ===-------------------------------------------===*/
 /**********************************************************************************************************************/
 @font-face {
+    font-family: 'PFAgoraSansPro-Light';
+    src: url('fonts/PFAgoraSansPro-Light.eot');
+    src: local('☺'), url('fonts/PFAgoraSansPro-Light.woff') format('woff'), url('fonts/PFAgoraSansPro-Light.ttf') format('truetype'), url('fonts/PFAgoraSansPro-Light.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
     font-family: 'PFAgoraSansPro-Regular';
     src: url('fonts/PFAgoraSansPro-Regular.eot');
     src: url('fonts/PFAgoraSansPro-Regular.eot') format('embedded-opentype'),
@@ -227,8 +234,28 @@ header{
     position: absolute;
     right: 0;
 }
-#main_menu .lang{
+#main_menu .lang {
     top: 45px;
+    background: #000000;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    width: 46px;
+    height: 46px;
+    transition: background .2s;
+    -moz-transition: background .2s;
+    -webkit-transition: background .2s;
+    -o-transition: background .2s;
+    -ms-transition: background .2s;
+}
+#main_menu .lang a {
+    color: #ffffff;
+    font-family: 'PFAgoraSansPro-Light', sans-serif;
+}
+#main_menu .lang:hover {
+    background: #ffffff;
+}
+#main_menu .lang:hover a {
+    color: #000000;
 }
 #mini_main_menu .lang{
     top: 20px;
@@ -327,6 +354,9 @@ header{
 .tabs .unstyled {
     padding: 0 18px;
 }
+.tabs ul li.active:hover a {
+    color: #ffffff;
+}
 /* --Дизайн-- */
 #tab1{
     min-height: 430px;
@@ -338,29 +368,53 @@ header{
 .tabs ul li.tab_design.active {
     background: #b473cf url("../img/our_services/tabs/pencil-active.png") no-repeat 38px 12px;
 }
+.tabs ul li.tab_design:hover a {
+    color: #b473cf;
+}
+.tabs ul li.tab_design.active:hover a {
+    color: #ffffff;
+}
 /* --Разработка-- */
 .tabs ul li.tab_dev {
     background: url("../img/our_services/tabs/gears-static.png") no-repeat 32px 12px;
     padding: 0 36px 0 75px;
 }
+.tabs ul li.tab_dev:hover a {
+    color: #478cc2;
+}
 .tabs ul li.tab_dev.active {
     background: #478cc2 url("../img/our_services/tabs/gears-active.png") no-repeat 32px 12px;
+}
+.tabs ul li.tab_dev.active:hover a {
+    color: #ffffff;
 }
 /* --Продвижение-- */
 .tabs ul li.tab_seo {
     background: url("../img/our_services/tabs/seo-static.png") no-repeat 30px 12px;
     padding: 0 25px 0 65px;
 }
+.tabs ul li.tab_seo:hover a {
+    color: #c95530;
+}
 .tabs ul li.tab_seo.active {
     background: #c95530 url("../img/our_services/tabs/seo-active.png") no-repeat 30px 12px;
+}
+.tabs ul li.tab_seo.active:hover a {
+    color: #ffffff;
 }
 /* --Консультирование-- */
 .tabs ul li.tab_consult {
     background: url("../img/our_services/tabs/consult-static.png") no-repeat 24px 12px;
     padding: 0 24px 0 69px;
 }
+.tabs ul li.tab_consult:hover a {
+    color: #f1ae4e;
+}
 .tabs ul li.tab_consult.active {
     background: #f1ae4e url("../img/our_services/tabs/consult-active.png") no-repeat 24px 12px;
+}
+.tabs ul li.tab_consult.active:hover a {
+    color: #ffffff;
 }
 /* --Контент табов-- */
 .tabs_content .tabs_content_div{
