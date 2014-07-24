@@ -92,6 +92,7 @@
                     <div class="about">
                         <h3>При разработке дизайна веб-сайта мы предлагаем на выбор несколько концепций дизайна.</h3>
                         <p>Разработка всегда начинается с подготовки  индивидуального брифа на дизайн, который  разрабатывается в отдельности под каждый  проект и клиента.</p>
+                        <div class="text-center"><a href="#" class="readmore">Подробнее</a></div>
                        <div class="html"><img src="img/our_services/development/html.png" alt="html"></div>
                        <div class="hdd"><img src="img/our_services/development/hdd.png" alt="hdd"></div>
                        <div class="macbook"><img src="img/our_services/development/macbook.png" alt="macbook"></div>
@@ -102,6 +103,7 @@
                     <div class="about">
                         <h3>Наша задача — рассказать о вашей фирмы и о вашем продукте в Сети так, чтоб не оставалось сомнения в выборе непосредственно вашей компании.</h3>
                         <p>Для достижения целей мы используем исключительно проверенные ресурсы, тщательнейшим образом подходим к маркетинговому сообщению и носителю, планируем оптимальный срок длительности маркетинговой кампании, помня о бюджете.</p>
+                        <div class="text-center"><a href="#" class="readmore">Подробнее</a></div>
                        <div class="papper_02"><img src="img/our_services/seo/papper_02.png" alt="papper_02"></div>
                        <div class="papper_03"><img src="img/our_services/seo/papper_03.png" alt="papper_03"></div>
                        <div class="papper_04"><img src="img/our_services/seo/papper_04.png" alt="papper_04"></div>
@@ -115,6 +117,7 @@
                     <div class="about">
                         <h3>Наша задача — рассказать о вашей фирмы и о вашем продукте в Сети так, чтоб не оставалось сомнения в выборе непосредственно вашей компании.</h3>
                         <p>Для достижения целей мы используем исключительно проверенные ресурсы, тщательнейшим образом подходим к маркетинговому сообщению и носителю, планируем оптимальный срок длительности маркетинговой кампании, помня о бюджете.</p>
+                        <div class="text-center"><a href="#" class="readmore">Подробнее</a></div>
                        <div class="papper"><img src="img/our_services/counseling/papper.png" alt="papper"></div>
                        <div class="notebook"><img src="img/our_services/counseling/notebook.png" alt="notebook"></div>
                        <div class="pan"><img src="img/our_services/counseling/pan.png" alt="pan"></div>

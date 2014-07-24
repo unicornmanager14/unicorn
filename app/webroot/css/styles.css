@@ -128,7 +128,7 @@ body{
     color: #a6a6a6;
     text-transform: uppercase;
     display: block;
-    font-size: 14px;
+    font-size: 13px;
     text-decoration: none;
 }
 .round a:hover {
@@ -588,27 +588,34 @@ header{
     padding: 15px 20px 15px 50px;
     font-size: 14px;
     text-transform: uppercase;
-    position: relative;
+    position: relative;/*
+    transition: background .2s;
+    -moz-transition: background .2s;
+    -webkit-transition: background .2s;
+    -o-transition: background .2s;
+    -ms-transition: background .2s;*/
 }
-#order_project .order_project_content .third {
-    transition: opacity .2s;
-    -moz-transition: opacity .2s;
-    -webkit-transition: opacity .2s;
-    -o-transition: opacity .2s;
-    -ms-transition: opacity .2s;
+#order_project .order_project_content .third:hover  button{
+    background: #2083bc url("../img/order/icon.png") no-repeat 25px 10px;;
 }
-#order_project .order_project_content .third:hover {
-    opacity: .8;
+#order_project .order_project_content .third:hover button:after {
+    border-top: 11px solid #2083bc;
 }
 #order_project .order_project_content .third button:after{
-    content: '';
-    display: block;
-    background: url("../img/order/button_bottom.png") no-repeat;
-    width: 165px;
-    height: 10px;
+    border-left: 86px solid transparent;
+    border-right: 86px solid transparent;
+    border-top: 11px solid #2c9ddf;
+    bottom: -11px;
+    content: "";
+    height: 0;
+    left: -2px;
     position: absolute;
-    bottom: -10px;
-    left: 0;
+    width: 0;
+     transition: background .2s;
+    -moz-transition: background .2s;
+    -webkit-transition: background .2s;
+    -o-transition: background .2s;
+    -ms-transition: background .2s;
 }
 /* Форма */
 #order_project .order_project_content .contact_form input[type='text']{
@@ -647,14 +654,14 @@ header{
     font-family: 'PFAgoraSansPro-Bold', sans-serif;
     background-color: #fff;
     border: 0;
-    transition: opacity .2s;
-    -moz-transition: opacity .2s;
-    -webkit-transition: opacity .2s;
-    -o-transition: opacity .2s;
-    -ms-transition: opacity .2s;
+    transition: color .2s;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -o-transition: color .2s;
+    -ms-transition: color .2s;
 }
 #order_project .order_project_content .contact_form input[type='submit']:hover {
-    opacity: .8;
+    color: #2a94d2;
 }
 #order_project .input_drop {
     position: relative;
