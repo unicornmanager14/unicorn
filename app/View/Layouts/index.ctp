@@ -49,7 +49,7 @@
     <div class="order_project_content">
         <div class="container">
             <ul class="unstyled full_width">
-                <li class="first">
+                <li class="first"><div class="round or"><span>или</span></div>
                     <h3>Заказать проект</h3>
                     <h4>Узнать цену</h4>
                 </li>
@@ -96,6 +96,11 @@
                     <input type="submit" value="Отправить" />
                 </form>
             </div>
+            <img src="img/order/papper.png" alt="papper" class="papper">
+            <img src="img/order/envelope.png" alt="envelope" class="envelope">
+            <img src="img/order/pan.png" alt="pan" class="pan">
+            <img src="img/order/konvert.png" alt="konvert" class="konvert">
+            <img src="img/order/calculator.png" alt="calculator" class="calculator">
         </div>
     </div>
     <div class="rainbow"></div>
