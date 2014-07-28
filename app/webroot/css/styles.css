@@ -10,29 +10,7 @@
 /*===----------------------------------------=== Подключаемые шрифты ===-------------------------------------------===*/
 /**********************************************************************************************************************/
 @font-face {
-    font-family: 'PFAgoraSansPro-Light';
-    src: url('fonts/PFAgoraSansPro-Light.eot');
-    src: local('☺'), url('fonts/PFAgoraSansPro-Light.woff') format('woff'), url('fonts/PFAgoraSansPro-Light.ttf') format('truetype'), url('fonts/PFAgoraSansPro-Light.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'PFAgoraSansPro-Regular';
-    src: url('fonts/PFAgoraSansPro-Regular.eot');
-    src: url('fonts/PFAgoraSansPro-Regular.eot') format('embedded-opentype'),
-    url('fonts/PFAgoraSansPro-Regular.woff') format('woff'),
-    url('fonts/PFAgoraSansPro-Regular.ttf') format('truetype'),
-    url('fonts/PFAgoraSansPro-Regular.svg#PFAgoraSansProRegular') format('svg');
-}
-@font-face {
-    font-family: 'PFAgoraSansPro-LightItalic';
-    src: url('fonts/PFAgoraSansPro-LightItal.eot');
-    src: local('☺'), url('fonts/PFAgoraSansPro-LightItal.woff') format('woff'), url('fonts/PFAgoraSansPro-LightItal.ttf') format('truetype'), url('fonts/PFAgoraSansPro-LightItal.svg') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
+    /*2313*/
     font-family: 'PFAgoraSansPro-Bold';
     src: url('fonts/PFAgoraSansPro-Bold.eot');
     src: url('fonts/PFAgoraSansPro-Bold.eot') format('embedded-opentype'),
@@ -86,7 +64,6 @@
 /**********************************************************************************************************************/
 body{
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
-    background: #f7f7f7;
 }
 .title{
     font-family: 'PFAgoraSansPro-Bold', sans-serif;
@@ -138,30 +115,24 @@ body{
     line-height: 47px;
     text-align: center;
 }
-.round span,.round a {
-    font-family: 'PFAgoraSansPro-LightItalic', sans-serif;
+.round a{
+    font-family: 'Uni_Sans-Thin-Italic', "Times New Roman", sans-sans-serif;
     color: #a6a6a6;
-    text-transform: uppercase;
+    text-transform: none;
     display: block;
-    font-size: 13px;
-    text-decoration: none;
-}
-.round a:hover {
-    color: #1f1f1f;
 }
 /* read more link */
 .readmore{
-    background: url("../img/readmore.png") 0 1px no-repeat;
+    background: url("../img/readmore.png") no-repeat;
     padding-left: 27px;
     color: #ea3a15;
-    font-size: 14px;
-    font-family: 'PFAgoraSansPro-Light', sans-serif;
+    font-size: 1.2em;
+    font-family: 'uni_sans-thin', Arial, sans-serif;
     position: relative;
     top: 45px;
     text-decoration: none;
     margin: 0 auto;
     display: inline-block;
-    text-transform: uppercase;
 }
 .readmore:hover{
     text-decoration: underline;
@@ -242,28 +213,8 @@ header{
     position: absolute;
     right: 0;
 }
-#main_menu .lang {
+#main_menu .lang{
     top: 45px;
-    background: #000000;
-    border-radius: 50%;
-    border: 1px solid #000000;
-    width: 46px;
-    height: 46px;
-    transition: background .2s;
-    -moz-transition: background .2s;
-    -webkit-transition: background .2s;
-    -o-transition: background .2s;
-    -ms-transition: background .2s;
-}
-#main_menu .lang a {
-    color: #ffffff;
-    font-family: 'PFAgoraSansPro-Light', sans-serif;
-}
-#main_menu .lang:hover {
-    background: #ffffff;
-}
-#main_menu .lang:hover a {
-    color: #000000;
 }
 #mini_main_menu .lang{
     top: 20px;
@@ -323,7 +274,7 @@ header{
     z-index: 1;
 }
 #who_we_are p{
-    font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
+    font-family: 'PFAgoraSansPro-Thin', Arial, sans-serif;
     font-size: 1.8em;
     line-height: 30px;
 }
@@ -332,111 +283,68 @@ header{
 }
 /*===---------------------------------------------=== Наши услуги ===----------------------------------------------===*/
 #our_services{
-        padding-bottom: 20px;
-       /* overflow: hidden;*/
-}
-.tabs ul li {
-    cursor: pointer;
+    padding-bottom: 20px;
 }
 .tabs ul li a{
     display: block;
     line-height: 50px;
     height: 50px;
+    padding: 0 70px;
     color: #010101;
-    font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
-    text-transform: uppercase;
+    font-family: 'Uni_Sans-Thin', Arial, sans-sans-serif;
     font-size: 14px;
     position: relative;
-    text-decoration: none;
-}
-.tabs ul li a span {
-    border-bottom: 1px dotted;
 }
 .tabs ul li.active a{
     color: #ffffff;
     text-decoration: none;
 }
-.tabs ul li.active a span {
-    border: 0;
-}
-.tabs .unstyled {
-    padding: 0 18px;
-}
-.tabs ul li.active:hover a {
-    color: #ffffff;
-}
 /* --Дизайн-- */
 #tab1{
     min-height: 430px;
 }
-.tabs ul li.tab_design {
-    background: url("../img/our_services/tabs/pencil-static.png") no-repeat 38px 12px;
-    padding: 0 62px 0 74px;;
+.tabs ul li.tab_design a{
+    padding-left: 70px;
+    background: url("../img/our_services/tabs/pencil-static.png") no-repeat 35px 12px;
 }
-.tabs ul li.tab_design.active {
-    background: #b473cf url("../img/our_services/tabs/pencil-active.png") no-repeat 38px 12px;
-}
-.tabs ul li.tab_design:hover a {
-    color: #b473cf;
-}
-.tabs ul li.tab_design.active:hover a {
-    color: #ffffff;
+.tabs ul li.tab_design.active a{
+    background: #b473cf url("../img/our_services/tabs/pencil-active.png") no-repeat 35px 12px;
 }
 /* --Разработка-- */
-.tabs ul li.tab_dev {
-    background: url("../img/our_services/tabs/gears-static.png") no-repeat 32px 12px;
-    padding: 0 36px 0 75px;
+.tabs ul li.tab_dev a{
+    padding-left: 70px;
+    background: url("../img/our_services/tabs/gears-static.png") no-repeat 35px 12px;
 }
-.tabs ul li.tab_dev:hover a {
-    color: #478cc2;
-}
-.tabs ul li.tab_dev.active {
-    background: #478cc2 url("../img/our_services/tabs/gears-active.png") no-repeat 32px 12px;
-}
-.tabs ul li.tab_dev.active:hover a {
-    color: #ffffff;
+.tabs ul li.tab_dev.active a{
+    background: #478cc2 url("../img/our_services/tabs/gears-active.png") no-repeat 35px 12px;
 }
 /* --Продвижение-- */
-.tabs ul li.tab_seo {
-    background: url("../img/our_services/tabs/seo-static.png") no-repeat 30px 12px;
-    padding: 0 25px 0 65px;
+.tabs ul li.tab_seo a{
+    padding-left: 70px;
+    background: url("../img/our_services/tabs/seo-static.png") no-repeat 35px 12px;
 }
-.tabs ul li.tab_seo:hover a {
-    color: #c95530;
-}
-.tabs ul li.tab_seo.active {
-    background: #c95530 url("../img/our_services/tabs/seo-active.png") no-repeat 30px 12px;
-}
-.tabs ul li.tab_seo.active:hover a {
-    color: #ffffff;
+.tabs ul li.tab_seo.active a{
+    background: #c95530 url("../img/our_services/tabs/seo-active.png") no-repeat 35px 12px;
 }
 /* --Консультирование-- */
-.tabs ul li.tab_consult {
-    background: url("../img/our_services/tabs/consult-static.png") no-repeat 24px 12px;
-    padding: 0 24px 0 69px;
+.tabs ul li.tab_consult a{
+    padding-left: 70px;
+    background: url("../img/our_services/tabs/consult-static.png") no-repeat 35px 12px;
 }
-.tabs ul li.tab_consult:hover a {
-    color: #f1ae4e;
-}
-.tabs ul li.tab_consult.active {
-    background: #f1ae4e url("../img/our_services/tabs/consult-active.png") no-repeat 24px 12px;
-}
-.tabs ul li.tab_consult.active:hover a {
-    color: #ffffff;
+.tabs ul li.tab_consult.active a{
+    background: #f1ae4e url("../img/our_services/tabs/consult-active.png") no-repeat 35px 12px;
 }
 /* --Контент табов-- */
 .tabs_content .tabs_content_div{
     display: none;
     padding-top: 60px;
     position: relative;
-    min-height: 430px;
 }
 .tabs_content .tabs_content_div .about{
-    width: 522px;
+    width: 430px;
     font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
-    padding-left: 41px;
+    padding-left: 50px;
 }
-/* Таб дизайна */
 .tabs_content .tabs_content_div .about h3{
     color: #b473cf;
     text-transform: uppercase;
@@ -451,167 +359,39 @@ header{
 }
 .tabs_content .tabs_content_div .notebook{
     position: absolute;
-    right: -2000px;
+    right: 0;
     top: 65px;
 }
 .tabs_content .tabs_content_div .flash{
     position: absolute;
-    right: -2000px;
+    right: 435px;
     top: 185px;
 }
 .tabs_content .tabs_content_div .glasses{
     position: absolute;
-    left: 2500px;
+    left: 255px;
     bottom: 0;
 }
 .tabs_content .tabs_content_div .cofee{
     position: absolute;
-    left: 2500px;
+    left: 395px;
     bottom: 50px;
 }
 .tabs_content .tabs_content_div .fan{
     position: absolute;
-    left: 2500px;
+    left: 515px;
     bottom: -10px;
 }
 .tabs_content .tabs_content_div .pancil{
     position: absolute;
-    right: -2000px;
+    right: 235px;
     bottom: -5px;
 }
 .tabs_content .tabs_content_div .triangle{
     position: absolute;
-    right: -2000px;
+    right: 287px;
     bottom: -10px;
 }
-/* Таб разработки */
-.tabs_content .development_tab .about h3 {
-    color: #478cc2;
-}
-.tabs_content .development_tab .computer {
-    position: absolute;
-    top: 92px;
-    right: -2000px;
-}
-.tabs_content .development_tab .ipad {
-    position: absolute;
-    top: 195px;
-    right: -2000px;
-}
-.tabs_content .development_tab .iphone {
-    position: absolute;
-    top: 232px;
-    right: -2000px;
-}
-.tabs_content .development_tab .bottle {
-    position: absolute;
-    top: 270px;
-    right: -2000px;
-}
-.tabs_content .development_tab .cogwheel {
-    position: absolute;
-    top: 68px;
-    right: -2000px;
-}
-.tabs_content .development_tab .papper {
-    position: absolute;
-    top: 30px;
-    right: -2000px;
-}
-.tabs_content .development_tab .macbook {
-    position: absolute;
-    top: 35px;
-    right: -2000px;    
-}
-.tabs_content .development_tab .hdd {
-    position: absolute;
-    top: 139px;
-    right: -2000px;    
-}
-.tabs_content .development_tab .html {
-    position: absolute;
-    top: 71px;
-    right: -2000px;    
-}
-.tabs_content .development_tab .pizza {
-    position: absolute;
-    top: 293px;
-    right: -2000px;    
-}
-/* Сео таб */
-.tabs_content .seo_tab .about h3 {
-    color:#f1764e; 
-}
-.tabs_content .seo_tab .folder {
-    position: absolute;
-    right: -2000px;
-    top: 46px;
-} 
-.tabs_content .seo_tab .ruler {
-    position: absolute;
-    right: -2000px;
-    top: 136px;
-} 
-.tabs_content .seo_tab .papper_03 {
-    position: absolute;
-    right: -2000px;
-    top: 169px;
-} 
-.tabs_content .seo_tab .papper_04 {
-    position: absolute;
-    right: -2000px;
-    top: 169px;
-} 
-.tabs_content .seo_tab .papper_02 {
-    position: absolute;
-    right: -2000px;
-    top: 214px;
-} 
-.tabs_content .seo_tab .papper_01 {
-    position: absolute;
-    right: -2000px;
-    top: 289px;
-} 
-.tabs_content .seo_tab .calculator {
-    position: absolute;
-    right: -2000px;
-    top: 298px;
-} 
-/* Таб консультации */
-.tabs_content .counseling_tab .about h3 {
-    color: #f1ae4e;
-}
-.tabs_content .counseling_tab .papper {
-    position: absolute;
-    top: 92px;
-    right: -2000px;
-}
-.tabs_content .counseling_tab .notebook {
-    position: absolute;
-    top: 151px;
-    right: -2000px;
-}
-.tabs_content .counseling_tab .pan {
-    position: absolute;
-    top: 326px;
-    right: -2000px;
-}
-.tabs_content .counseling_tab .phone {
-    position: absolute;
-    top: 189px;
-    right: -2000px;
-}
-.tabs_content .counseling_tab .cup_l {
-    position: absolute;
-    top: 280px;
-    right: -2000px;
-}
-.tabs_content .counseling_tab .cup_r {
-    position: absolute;
-    top: 73px;
-    right: -2000px;
-}
-
 /*===-----------------------------------------=== Заказать проект ===----------------------------------------------===*/
 #order_project{
     font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
@@ -628,7 +408,6 @@ header{
 #order_project .order_project_content{
     background: url("../img/order/bg.png") repeat;
     padding: 65px 0 90px 0;
-    overflow: hidden;
 }
 #order_project .order_project_content ul{
     height: 145px;
@@ -650,34 +429,17 @@ header{
     padding: 15px 20px 15px 50px;
     font-size: 14px;
     text-transform: uppercase;
-    position: relative;/*
-    transition: background .2s;
-    -moz-transition: background .2s;
-    -webkit-transition: background .2s;
-    -o-transition: background .2s;
-    -ms-transition: background .2s;*/
-}
-#order_project .order_project_content .third:hover  button{
-    background: #2083bc url("../img/order/icon.png") no-repeat 25px 10px;;
-}
-#order_project .order_project_content .third:hover button:after {
-    border-top: 11px solid #2083bc;
+    position: relative;
 }
 #order_project .order_project_content .third button:after{
-    border-left: 86px solid transparent;
-    border-right: 86px solid transparent;
-    border-top: 11px solid #2c9ddf;
-    bottom: -11px;
-    content: "";
-    height: 0;
-    left: -2px;
+    content: '';
+    display: block;
+    background: url("../img/order/button_bottom.png") no-repeat;
+    width: 165px;
+    height: 10px;
     position: absolute;
-    width: 0;
-     transition: background .2s;
-    -moz-transition: background .2s;
-    -webkit-transition: background .2s;
-    -o-transition: background .2s;
-    -ms-transition: background .2s;
+    bottom: -10px;
+    left: 0;
 }
 /* Форма */
 #order_project .order_project_content .contact_form input[type='text']{
@@ -716,14 +478,6 @@ header{
     font-family: 'PFAgoraSansPro-Bold', sans-serif;
     background-color: #fff;
     border: 0;
-    transition: color .2s;
-    -moz-transition: color .2s;
-    -webkit-transition: color .2s;
-    -o-transition: color .2s;
-    -ms-transition: color .2s;
-}
-#order_project .order_project_content .contact_form input[type='submit']:hover {
-    color: #2a94d2;
 }
 #order_project .input_drop {
     position: relative;
@@ -760,10 +514,9 @@ header{
 }
 #order_project .input_drop .radio-btn {padding-left: 8px;margin: 3px 0;}
 #order_project .input_drop input[type=checkbox] {display: none;}
-#order_project .input_drop input[type=checkbox]+.radio-label { transition: opacity .2s;-webkit-transition: opacity .2s;-o-transition: opacity .2s;-moz-transition: opacity .2s;-ms-transition: opacity .2s;background: url("../img/order/radio_btn.png") 0 6px no-repeat;padding-bottom: 3px; padding-left: 24px; padding-top: 3px;}
+#order_project .input_drop input[type=checkbox]+.radio-label { background: url("../img/order/radio_btn.png") 0 6px no-repeat;padding-bottom: 3px; padding-left: 24px; padding-top: 3px;}
 #order_project .input_drop input[type=checkbox]:checked+.radio-label { background: url("../img/order/radio_btn.png") 0 -41px no-repeat;padding-bottom: 3px; padding-left: 24px; padding-top: 3px; color: #ffffff;}
 #order_project .input_drop .radio-label {font-family: 'PFAgoraSansPro-Regular',sans-serif;font-size: 14px; cursor: pointer; transition: color .2s;}
-#order_project .input_drop input[type=checkbox]+.radio-label:hover {opacity: .8;}
 
 #order_project .order_project_content .contact_form input::-moz-placeholder,
 #order_project .order_project_content .contact_form textarea::-moz-placeholder {
@@ -774,44 +527,6 @@ header{
 #order_project .order_project_content .contact_form textarea::-webkit-input-pl {
     opacity: 1;
     color: #ffffff;
-}
-#order_project .or {
-    position: absolute;
-    background: url("../img/round_fff.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-    left: 179px;
-    top: 12px;
-}
-#order_project .or span {
-    color: #fefefe;
-    font-family: 'PFAgoraSansPro-LightItalic', sans-serif;
-}
-
-
-
-#order_project .papper {
-    position: absolute;
-    bottom: -2000px;
-    left: 29px; 
-}
-#order_project .envelope {
-    position: absolute;
-    bottom: -2000px;
-    left: -36px;
-}
-#order_project .pan {
-    position: absolute;
-    bottom: -2000px;
-    left: 188px;
-}
-#order_project .konvert {
-    position: absolute;
-    bottom: -2000px;
-    right: 19px;
-}
-#order_project .calculator {
-    position: absolute;
-    bottom: -2000px;
-    right: -36px;
 }
 
 /*===--------------------------------------------=== Social Media ===----------------------------------------------===*/

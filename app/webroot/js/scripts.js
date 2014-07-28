@@ -1,6 +1,5 @@
 $(document).ready(function() {
 
-
       function Tab_1_On(){  // Анимация Таба Дизайна
           $('.tabs_content .design_tab .glasses').animate({'left':'255px'},400);
           $('.tabs_content .design_tab .cofee').animate({'left':'395px'},500);
@@ -234,7 +233,7 @@ $(document).ready(function() {
 
 
 
-// Анимация картинок форы заявки при попадании их в зону видимости
+// Анимация картинок формы заявки при попадании их в зону видимости
       var link2 = $('#social_media');
       var position2 = link2.offset();
       var bottom2 = $(window).height() - position2.top;
