@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="2 новые страницы">
+    <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/styles.css" afterPath="$PROJECT_DIR$/app/webroot/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -29,7 +29,7 @@
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="47" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="11475">
+            <state line="19" column="3" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.47360703" vertical-offset="0" max-vertical-offset="11475">
               <folding />
             </state>
           </provider>
@@ -548,7 +548,11 @@
       <created>1406548499367</created>
       <updated>1406548499367</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2 новые страницы">
+      <created>1406548597969</created>
+      <updated>1406548597969</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -877,7 +881,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="47" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.5483871" vertical-offset="0" max-vertical-offset="11475">
+        <state line="19" column="3" selection-start="1267" selection-end="1267" vertical-scroll-proportion="0.47360703" vertical-offset="0" max-vertical-offset="11475">
           <folding />
         </state>
       </provider>
