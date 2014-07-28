@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="" />
+    <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="">
+      <change type="DELETED" beforePath="C:\OpenServer\domains\unicorn\app\View\Elements\mini_main_menu.ctp" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/img/our_services/tabs/pencil-active.png" afterPath="$PROJECT_DIR$/app/webroot/img/our_services/tabs/pencil-active.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/img/our_services/tabs/pencil-static.png" afterPath="$PROJECT_DIR$/app/webroot/img/our_services/tabs/pencil-static.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/img/readmore.png" afterPath="$PROJECT_DIR$/app/webroot/img/readmore.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/classes.css" afterPath="$PROJECT_DIR$/app/webroot/css/classes.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/js/lib/jquery.formstyler/formstyler.css" afterPath="$PROJECT_DIR$/app/webroot/js/lib/jquery.formstyler/formstyler.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Index/index.ctp" afterPath="$PROJECT_DIR$/app/View/Index/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Layouts/index.ctp" afterPath="$PROJECT_DIR$/app/View/Layouts/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Services/index.ctp" afterPath="$PROJECT_DIR$/app/View/Services/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Elements/main_menu.ctp" afterPath="$PROJECT_DIR$/app/View/Elements/main_menu.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/js/scripts.js" afterPath="$PROJECT_DIR$/app/webroot/js/scripts.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/styles.css" afterPath="$PROJECT_DIR$/app/webroot/css/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="unicorn.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,37 +38,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ServicesController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/ServicesController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="24" selection-start="168" selection-end="168" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Layouts/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-9.807693" vertical-offset="493" max-vertical-offset="2652">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Services/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="39" selection-start="551" selection-end="560" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="614" column="23" selection-start="19262" selection-end="19262" vertical-scroll-proportion="0.6266968" vertical-offset="9884" max-vertical-offset="11458">
+            <state line="34" column="63" selection-start="1999" selection-end="1999" vertical-scroll-proportion="1.0314606" vertical-offset="119" max-vertical-offset="11475">
               <folding />
             </state>
           </provider>
@@ -66,6 +54,14 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Динька" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
@@ -77,11 +73,9 @@
         <option value="$PROJECT_DIR$/app/View/Elements/mini_main_menu.ctp" />
         <option value="$PROJECT_DIR$/app/View/Port/port.ctp" />
         <option value="$PROJECT_DIR$/app/View/Contacts/contacts.ctp" />
-        <option value="$PROJECT_DIR$/app/webroot/js/scripts.js" />
         <option value="$PROJECT_DIR$/app/View/Layouts/contacts.ctp" />
         <option value="$PROJECT_DIR$/app/View/Contacts/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/Layouts/portfolio.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Elements/main_menu.ctp" />
         <option value="$PROJECT_DIR$/app/View/Portfolio/index.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/PortfolioController.php" />
         <option value="$PROJECT_DIR$/app/View/Layouts/single.ctp" />
@@ -103,7 +97,11 @@
         <option value="$PROJECT_DIR$/app/Controller/SrvicesController.php" />
         <option value="$PROJECT_DIR$/app/Controller/ServicesController.php" />
         <option value="$PROJECT_DIR$/app/View/Layouts/index.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/AboutController.php" />
         <option value="$PROJECT_DIR$/app/View/Services/index.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Elements/main_menu.ctp" />
+        <option value="$PROJECT_DIR$/app/View/About/index.ctp" />
+        <option value="$PROJECT_DIR$/app/webroot/js/scripts.js" />
         <option value="$PROJECT_DIR$/app/webroot/css/styles.css" />
       </list>
     </option>
@@ -112,10 +110,10 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -233,32 +231,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webroot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,7 +402,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Emails" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Elements" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Common" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="About" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -461,6 +499,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistory" value="&lt;" />
     <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="192" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="210" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="217" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="896" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="214" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="203" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="209" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="889" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -479,36 +533,71 @@
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="" />
       <created>1404382028028</created>
       <updated>1404382028028</updated>
     </task>
+    <task id="LOCAL-00001" summary="2 новые страницы">
+      <created>1406548499367</created>
+      <updated>1406548499367</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2 новые страницы">
+      <created>1406548597969</created>
+      <updated>1406548597969</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2 новые страницы">
+      <created>1406548693916</created>
+      <updated>1406548693916</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2 новые страницы">
+      <created>1406549213633</created>
+      <updated>1406549213633</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.259375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.169448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -543,6 +632,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="2 новые страницы" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 новые страницы" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -550,12 +641,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="16" selection-start="7964" selection-end="7979" vertical-scroll-proportion="0.0" vertical-offset="3025" max-vertical-offset="8194" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="77" selection-start="1712" selection-end="1712" vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="1292" />
+        <state line="766" column="24" selection-start="22616" selection-end="22616" vertical-scroll-proportion="0.0" vertical-offset="12576" max-vertical-offset="14093">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Layouts/index.ctp">
@@ -658,24 +746,9 @@
         <state line="147" column="9" selection-start="3591" selection-end="3599" vertical-scroll-proportion="0.0" vertical-offset="2165" max-vertical-offset="4403" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Elements/mini_main_menu.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="32" selection-start="57" selection-end="57" vertical-scroll-proportion="0.02004717" vertical-offset="0" max-vertical-offset="848" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Layouts/contacts.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="0" selection-start="1256" selection-end="1256" vertical-scroll-proportion="0.5813679" vertical-offset="0" max-vertical-offset="1649" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="0" selection-start="4895" selection-end="4895" vertical-scroll-proportion="0.0" vertical-offset="1625" max-vertical-offset="2499" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Elements/main_menu.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="30" selection-start="298" selection-end="298" vertical-scroll-proportion="-0.0" vertical-offset="119" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Layouts/portfolio.ctp">
@@ -740,91 +813,95 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Post/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="36" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="19" column="36" selection-start="440" selection-end="440" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Common/view.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="6" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="9" column="6" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/PortfolioController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="27" selection-start="123" selection-end="123" vertical-scroll-proportion="0.09758898" vertical-offset="0" max-vertical-offset="871">
-          <folding />
-        </state>
+        <state line="5" column="27" selection-start="123" selection-end="123" vertical-scroll-proportion="0.09758898" vertical-offset="0" max-vertical-offset="871" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="0.21469575" vertical-offset="0" max-vertical-offset="871">
-          <folding />
-        </state>
+        <state line="11" column="25" selection-start="213" selection-end="213" vertical-scroll-proportion="0.21469575" vertical-offset="0" max-vertical-offset="871" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AppController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.29276693" vertical-offset="0" max-vertical-offset="871">
-          <folding />
-        </state>
+        <state line="33" column="0" selection-start="1118" selection-end="1118" vertical-scroll-proportion="0.29276693" vertical-offset="0" max-vertical-offset="871" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="31" selection-end="31" vertical-scroll-proportion="0.039035592" vertical-offset="0" max-vertical-offset="871">
-          <folding />
-        </state>
+        <state line="2" column="24" selection-start="31" selection-end="31" vertical-scroll-proportion="0.039035592" vertical-offset="0" max-vertical-offset="871" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/ExtendController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="143" selection-end="143" vertical-scroll-proportion="0.13662457" vertical-offset="0" max-vertical-offset="871">
-          <folding />
-        </state>
+        <state line="7" column="34" selection-start="143" selection-end="143" vertical-scroll-proportion="0.13662457" vertical-offset="0" max-vertical-offset="871" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/IndexController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="26" selection-start="387" selection-end="387" vertical-scroll-proportion="0.33180252" vertical-offset="0" max-vertical-offset="871">
-          <folding />
-        </state>
+        <state line="17" column="26" selection-start="387" selection-end="387" vertical-scroll-proportion="0.33180252" vertical-offset="0" max-vertical-offset="871" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/CommonController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="1" selection-start="148" selection-end="148" vertical-scroll-proportion="0.17566016" vertical-offset="0" max-vertical-offset="871">
+        <state line="9" column="1" selection-start="148" selection-end="148" vertical-scroll-proportion="0.17566016" vertical-offset="0" max-vertical-offset="871" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Elements/main_menu.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="27" selection-start="264" selection-end="264" vertical-scroll-proportion="0.11710677" vertical-offset="0" max-vertical-offset="871" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Services/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="50" selection-start="7935" selection-end="7935" vertical-scroll-proportion="0.69822484" vertical-offset="3082" max-vertical-offset="3927" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="0" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.29276693" vertical-offset="493" max-vertical-offset="2652">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/ServicesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="24" selection-start="168" selection-end="168" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
+        <state line="10" column="24" selection-start="168" selection-end="168" vertical-scroll-proportion="0.19517796" vertical-offset="0" max-vertical-offset="871" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="21" selection-start="2082" selection-end="2082" vertical-scroll-proportion="0.69207317" vertical-offset="243" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/index.ctp">
+    <entry file="file://$PROJECT_DIR$/app/Controller/AboutController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-9.807693" vertical-offset="493" max-vertical-offset="2652">
+        <state line="7" column="32" selection-start="116" selection-end="116" vertical-scroll-proportion="0.17787743" vertical-offset="0" max-vertical-offset="669">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Services/index.ctp">
+    <entry file="file://$PROJECT_DIR$/app/webroot/js/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="551" selection-end="560" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
+        <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.56258994" vertical-offset="408" max-vertical-offset="4437">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="614" column="23" selection-start="19262" selection-end="19262" vertical-scroll-proportion="0.6266968" vertical-offset="9884" max-vertical-offset="11458">
+        <state line="34" column="63" selection-start="1999" selection-end="1999" vertical-scroll-proportion="1.0314606" vertical-offset="119" max-vertical-offset="11475">
           <folding />
         </state>
       </provider>
