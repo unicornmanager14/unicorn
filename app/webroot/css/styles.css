@@ -1004,7 +1004,7 @@ footer{
 footer .copyright {
     color: #303030;
 }
-footer .copyright b {
+footer .copyright .bold {
     font-family: 'PFAgoraSansPro-Bold', sans-serif;
 }
 footer .logo {
