@@ -22,6 +22,7 @@
     <!-- /jquery.selectBox -->
 
     <script src="<?php echo Router::fullbaseUrl() ?>/js/scripts.js"></script>
+    <?php $this->Html->meta('icon', $this->Html->url('img/favicon.png')); ?>
 </head>
 
 <body>

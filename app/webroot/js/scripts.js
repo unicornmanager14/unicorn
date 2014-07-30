@@ -174,13 +174,15 @@ $(document).ready(function() {
            $('.header_top nav ul li').css({'line-height':'97px'});
            $('.header_top nav .lang').css({'top':'25px'});
            $('header').removeClass('header_top').addClass('header_down');
+           $('.secondary_nav').css('margin-top','-50px');
         } 
         else 
         {
            $('.header_down .container').css({'height':'145px'});
            $('.header_down nav ul li').css({'line-height':'140px'});
            $('.header_down nav .lang').css({'top':'45px'});  
-           $('header').removeClass('header_down').addClass('header_top'); 
+           $('header').removeClass('header_down').addClass('header_top');
+           $('.secondary_nav').css('margin-top','-0'); 
         }
     });   
 

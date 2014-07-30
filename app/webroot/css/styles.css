@@ -213,15 +213,34 @@ header{
     font-size: 14px;
     font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
 }
+#main_menu ul li a:hover {
+    border-bottom: 2px solid;
+    padding-bottom: 14px;
+}
 #main_menu ul li a.logo,
 #mini_main_menu ul li a.logo{
     display: block;
     margin: 10px 0 20px 0;
 }
 #main_menu ul li a.logo{
-    background: url("../img/header/logo.png") no-repeat;
+    background: url("../img/header/logo.png") 0px -149px no-repeat;
     width: 91px;
     height: 112px;
+    transition: background .2s;
+    -moz-transition: background .2s;
+    -webkit-transition: background .2s;
+    -o-transition: background .2s;
+    -ms-transition: background .2s;
+}
+.header_top #main_menu ul li a.logo:hover {
+    background-position: 0 29px;
+    border: 0;
+    padding: 0;
+}
+.header_down #main_menu ul li a.logo:hover {
+    background-position: 0 7px;
+    border: 0;
+    padding: 0;
 }
 #mini_main_menu ul li a.logo{
     background: url("../img/header/mini_logo.png") no-repeat;
@@ -271,6 +290,14 @@ header{
 }
 .secondary_nav{
     background-color: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    transition: margin-top .3s;
+    -o-transition: margin-top .3s;
+    -webkit-transition: margin-top .3s;
+    -moz-transition: margin-top .3s;
+    -ms-transition: margin-top .3s; 
 }
 .secondary_nav ul li{
     height: 50px;
@@ -836,7 +863,7 @@ transition: background .2s;
 
 /*===----------------------------------------------=== Портфолио ===-----------------------------------------------===*/
 #portfolio{
-    padding: 45px 20px;
+    padding: 99px 20px 45px;
 }
 #portfolio ul li{
     margin-bottom: 90px;
