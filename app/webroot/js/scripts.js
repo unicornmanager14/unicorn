@@ -248,7 +248,11 @@ $(document).ready(function() {
         }
       }); 
 
-
+  // Высота блока с названием компании и сдвиг вверх на половину
+  $('#portfolio ul li a').hover(function(){
+    var WorkName = $(this).find('.block_name').height() / 2;
+    $(this).find('.block_name').css('margin-top', 0-WorkName);   
+  });
 
 
 

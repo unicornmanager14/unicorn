@@ -18,6 +18,14 @@
                 <a href="/portfolio/single/01">
                     <div class="portfolio_img">
                         <img src="/img/portfolio/01.png" alt="" />
+                        <div class="block_name text-center">
+                            <span class="company">Название компании</span>
+                            <div class="line"></div>
+                            <i href="#" class="icon adap"></i>
+                            <i href="#" class="icon seo"></i>
+                            <i href="#" class="icon dev"></i>
+                            <i href="#" class="icon des"></i>
+                        </div>
                     </div>
                     <h3>Название проэкта, должно быть небольше 2 строчек</h3>
                     <p>Небольшое описане, что было сделанно и т.д.</p>
@@ -27,6 +35,14 @@
                 <a href="/portfolio/single/02">
                     <div class="portfolio_img">
                         <img src="/img/portfolio/02.png" alt="" />
+                        <div class="block_name text-center">
+                            <span class="company">Название компании</span>
+                            <div class="line"></div>
+                            <i href="#" class="icon adap"></i>
+                            <i href="#" class="icon seo"></i>
+                            <i href="#" class="icon dev"></i>
+                            <i href="#" class="icon des"></i>
+                        </div>
                     </div>
                     <h3>Название проэкта, должно быть небольше 2 строчек</h3>
                     <p>Небольшое описане, что было сделанно и т.д.</p>
@@ -36,6 +52,14 @@
                 <a href="/portfolio/single/03">
                     <div class="portfolio_img">
                         <img src="/img/portfolio/03.png" alt="" />
+                        <div class="block_name text-center">
+                            <span class="company">Название компании</span>
+                            <div class="line"></div>
+                            <i href="#" class="icon adap"></i>
+                            <i href="#" class="icon seo"></i>
+                            <i href="#" class="icon dev"></i>
+                            <i href="#" class="icon des"></i>
+                        </div>
                     </div>
                     <h3>Название проэкта, должно быть небольше 2 строчек</h3>
                     <p>Небольшое описане, что было сделанно и т.д.</p>
@@ -45,6 +69,14 @@
                 <a href="/portfolio/single/04">
                     <div class="portfolio_img">
                         <img src="/img/portfolio/01.png" alt="" />
+                        <div class="block_name text-center">
+                            <span class="company">Название компании</span>
+                            <div class="line"></div>
+                            <i href="#" class="icon adap"></i>
+                            <i href="#" class="icon seo"></i>
+                            <i href="#" class="icon dev"></i>
+                            <i href="#" class="icon des"></i>
+                        </div>
                     </div>
                     <h3>Название проэкта, должно быть небольше 2 строчек</h3>
                     <p>Небольшое описане, что было сделанно и т.д.</p>
@@ -54,6 +86,14 @@
                 <a href="/portfolio/single/05">
                     <div class="portfolio_img">
                         <img src="/img/portfolio/02.png" alt="" />
+                        <div class="block_name text-center">
+                            <span class="company">Название компании</span>
+                            <div class="line"></div>
+                            <i href="#" class="icon adap"></i>
+                            <i href="#" class="icon seo"></i>
+                            <i href="#" class="icon dev"></i>
+                            <i href="#" class="icon des"></i>
+                        </div>
                     </div>
                     <h3>Название проэкта, должно быть небольше 2 строчек</h3>
                     <p>Небольшое описане, что было сделанно и т.д.</p>
@@ -63,6 +103,14 @@
                 <a href="/portfolio/single/06">
                     <div class="portfolio_img">
                         <img src="/img/portfolio/03.png" alt="" />
+                        <div class="block_name text-center">
+                            <span class="company">Название компании</span>
+                            <div class="line"></div>
+                            <i href="#" class="icon adap"></i>
+                            <i href="#" class="icon seo"></i>
+                            <i href="#" class="icon dev"></i>
+                            <i href="#" class="icon des"></i>
+                        </div>
                     </div>
                     <h3>Название проэкта, должно быть небольше 2 строчек</h3>
                     <p>Небольшое описане, что было сделанно и т.д.</p>
