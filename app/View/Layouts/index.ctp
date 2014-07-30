@@ -49,7 +49,7 @@
     <div class="order_project_content">
         <div class="container">
             <ul class="unstyled full_width">
-                <li class="first">
+                <li class="first"><div class="round or"><span>или</span></div>
                     <h3>Заказать проект</h3>
                     <h4>Узнать цену</h4>
                 </li>
@@ -96,6 +96,11 @@
                     <input type="submit" value="Отправить" />
                 </form>
             </div>
+            <img src="img/order/papper.png" alt="papper" class="papper">
+            <img src="img/order/envelope.png" alt="envelope" class="envelope">
+            <img src="img/order/pan.png" alt="pan" class="pan">
+            <img src="img/order/konvert.png" alt="konvert" class="konvert">
+            <img src="img/order/calculator.png" alt="calculator" class="calculator">
         </div>
     </div>
     <div class="rainbow"></div>
@@ -104,11 +109,33 @@
 
 <!-- Social Media -->
 <section id="social_media">
-    <div class="text-center">
-        <ul class="unstyled ds_inline">
-            <li><a href="#"><img src="img/social_media/facebook.png" alt=""/></a></li>
-            <li><a href="#"><img src="img/social_media/twitter.png" alt=""/></a></li>
+    <div class="container full_width">
+        <div class="contacts_block footer_contact">
+            <h4>Контакты Unicorn</h4>
+            <span>
+                Телефон: +38 (048) 258-48-88
+            <br>Ежедневно, c 10:00 до 18:00
+            </span>
+            <span>
+                E-mail: <a href="mailto:info@unicorn.com.ua">info@unicorn.com.ua</a>
+            <br>Skype: <a href="skype:unicorn_men?call">unicorn_men</a>
+            </span>
+        </div>
+        <div class="feedback_block footer_contact">
+            <h4>Обратная связь</h4>
+            <span>Клиентам:
+                <br><a href="mailto:nb@unicorn.com.ua">nb@unicorn.com.ua</a>
+            </span>
+            <span>
+                Трудоустройство:
+                <br><a href="mailto:job@unicorn.com.ua">job@unicorn.com.ua</a>
+            </span>
+        </div>
+        <ul class="unstyled footer_contact">
+            <h4>следуй за  единорогом</h4>
             <li><a href="#"><img src="img/social_media/vimeo.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/social_media/twitter.png" alt=""/></a></li>
+            <li><a href="#"><img src="img/social_media/facebook.png" alt=""/></a></li>
         </ul>
     </div>
 </section>
@@ -116,31 +143,10 @@
 
 <!-- Footer -->
 <footer>
-    <div class="container">
-        <div class="logo clearfix left">
-            <a href="#" class="left"><img src="img/footer/logo.png" alt="" /></a>
-            <div>
-                <p><span>unicorn</span> | 2014</p>
-                <p>Единороги спасут мир</p>
-            </div>
-        </div>
-        <div class="right">
-            <ul class="unstyled">
-                <li>
-                    <h4>Skype</h4>
-                    <p>unicorn.ua</p>
-                </li>
-                <li>
-                    <h4>Email</h4>
-                    <p>info@unicorn.ua</p>
-                </li>
-                <li>
-                    <h4>Телефон</h4>
-                    <p class="phone"><span>(048)</span> 258-87-65</p>
-                </li>
-            </ul>
-
-        </div>
+    <div class="container full_width">
+        <span class="copyright">© <b>Unicorn.</b> Все права защищены 2014.</span>
+        <a href="#" class="logo"><img src="img/footer/logo.png" alt="logo"></a>
+        <span class="phone">+38 (048) 258-87-65</span>
     </div>
 </footer>
 
