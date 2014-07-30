@@ -170,17 +170,17 @@ $(document).ready(function() {
     $(document).scroll(function() {
         if ($(document).scrollTop() >= 73) 
         {
-           $('.header_top .container').css({'height':'94px'});
-           $('.header_top nav ul li').css({'line-height':'97px'});
-           $('.header_top nav .lang').css({'top':'25px'});
+           $('.header_top .container').css({'height':'69px'});
+           $('.header_top nav ul li').css({'line-height':'69px'});
+           $('.header_top nav .lang').css({'top':'13px'});
            $('header').removeClass('header_top').addClass('header_down');
-           $('.secondary_nav').css('margin-top','-50px');
+           $('.secondary_nav').css('margin-top','-75px');
         } 
         else 
         {
            $('.header_down .container').css({'height':'145px'});
            $('.header_down nav ul li').css({'line-height':'140px'});
-           $('.header_down nav .lang').css({'top':'45px'});  
+           $('.header_down nav .lang').css({'top':'48px'});  
            $('header').removeClass('header_down').addClass('header_top');
            $('.secondary_nav').css('margin-top','-0'); 
         }
