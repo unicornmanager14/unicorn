@@ -48,12 +48,12 @@
                     <li>
                         <img src="img/about/den.png" alt="" />
                         <p class="name">Денис Любченко</p>
-                        <p class="position">Исполнительный директор</p>
+                        <p class="position">Ведущий программист</p>
                     </li>
                     <li>
                         <img src="img/about/evg.png" alt="" />
                         <p class="name">Евгений Дорохин</p>
-                        <p class="position">Ведущий программист</p>
+                        <p class="position">Front-End Developer</p>
                     </li>
                 </ul>
             </div>
