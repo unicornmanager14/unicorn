@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="Денис">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/styles.css" afterPath="$PROJECT_DIR$/app/webroot/css/styles.css" />
+    <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unicorn.iws" />
@@ -572,7 +571,11 @@
       <created>1406792607515</created>
       <updated>1406792607515</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Денис">
+      <created>1406792775559</created>
+      <updated>1406792775559</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
