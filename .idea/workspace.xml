@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/about/den.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/about/evg.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/about/rus.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/about/supermans.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/about/two_words.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/About/index.ctp" afterPath="$PROJECT_DIR$/app/View/About/index.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unicorn.iws" />
@@ -51,7 +47,7 @@
       <file leaf-file-name="index.ctp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="70" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.6402439" vertical-offset="243" max-vertical-offset="935">
+            <state line="39" column="63" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.58536583" vertical-offset="279" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -636,12 +632,16 @@
       <created>1406793118361</created>
       <updated>1406793118361</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Денис">
+      <created>1406793205642</created>
+      <updated>1406793205642</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -649,7 +649,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -962,7 +962,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="70" selection-start="2037" selection-end="2037" vertical-scroll-proportion="0.6402439" vertical-offset="243" max-vertical-offset="935">
+        <state line="39" column="63" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.58536583" vertical-offset="279" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
