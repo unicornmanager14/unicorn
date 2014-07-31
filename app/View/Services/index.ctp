@@ -185,34 +185,24 @@
     <div id="support" class="serv_block clearfix">
         <ul>
             <li>
-                <a href="#">
-                    <div class="serv_img"><img src="img/services/ext_func.png" alt=""></div>
-                    <p class="serv_name">Расширение функционала</p>
-                </a>
+                <div class="serv_img"><img src="img/services/ext_func.png" alt=""></div>
+                <p class="serv_name">Расширение функционала</p>
             </li>
             <li>
-                <a href="#">
-                    <div class="serv_img"><img src="img/services/act_banners.png" alt=""></div>
-                    <p class="serv_name">создание акционных баннеров</p>
-                </a>
+                <div class="serv_img"><img src="img/services/act_banners.png" alt=""></div>
+                <p class="serv_name">создание акционных баннеров</p>
             </li>
             <li>
-                <a href="#">
-                    <div class="serv_img"><img src="img/services/site_sup.png" alt=""></div>
-                    <p class="serv_name">помогаем поддерживать сайт в функциональном состоянии</p>
-                </a>
+                <div class="serv_img"><img src="img/services/site_sup.png" alt=""></div>
+                <p class="serv_name">помогаем поддерживать сайт в функциональном состоянии</p>
             </li>
             <li>
-                <a href="#">
-                    <div class="serv_img"><img src="img/services/consult.png" alt=""></div>
-                    <p class="serv_name">Консультирование в технологических решениях</p>
-                </a>
+                <div class="serv_img"><img src="img/services/consult.png" alt=""></div>
+                <p class="serv_name">Консультирование в технологических решениях</p>
             </li>
             <li>
-                <a href="#">
-                    <div class="serv_img"><img src="img/services/release.png" alt=""></div>
-                    <p class="serv_name">Востановление сайта</p>
-                </a>
+                <div class="serv_img"><img src="img/services/release.png" alt=""></div>
+                <p class="serv_name">Востановление сайта</p>
             </li>
         </ul>
     </div>
