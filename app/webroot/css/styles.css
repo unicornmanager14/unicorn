@@ -678,8 +678,8 @@ header{
 #services .serv_block ul li{
     text-align: center;
     width: 250px;
-    margin-bottom: 80px;
-    float: left;
+    padding-bottom: 90px;
+    display: inline-block;
     list-style: none;
     margin-right: 55px;
 }
@@ -698,16 +698,40 @@ header{
     font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
     font-size: 16px;
     color: #000000;
-    padding: 25px 0 20px 0;
+    /*padding: 25px 0 20px 0;*/
+    padding-bottom: 5px;
+    margin: 25px 0 15px 0;
     text-transform: uppercase;
     line-height: 24px;
+    border-bottom: 1px solid #000000;
+    display: inline-block;
+}
+#design ul li:hover .serv_name{
+    color: #c18cd7;
+    border-bottom: 1px solid #c18cd7;
+}
+#f_style ul li:hover .serv_name{
+    color: #7866bd;
+    border-bottom: 1px solid #7866bd;
+}
+#site_dev ul li:hover .serv_name{
+    color: #478cc2;
+    border-bottom: 1px solid #478cc2;
+}
+#seo ul li:hover .serv_name{
+    color: #cd6341;
+    border-bottom: 1px solid #cd6341;
+}
+#support ul li:hover .serv_name{
+    color: #f1ae4e;
+    border-bottom: 1px solid #f1ae4e;
 }
 #services .serv_price{
     color: #5c5c5c;
     font-size: 16px;
 }
 /* Дизайн */
-#design, #f_style, #seo, #support{
+#design, #f_style, #seo, #support, #site_dev{
     border: 3px solid;
     padding: 80px 60px 0 60px;
 }
@@ -716,6 +740,9 @@ header{
 }
 #f_style{
     border-color: #7866bd;
+}
+#site_dev{
+    border-color: #478cc2;
 }
 #seo{
     border-color: #cd6341;

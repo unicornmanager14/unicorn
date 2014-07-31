@@ -8,7 +8,7 @@
         <h3 class="title serv_pr">Дизайн</h3>
     </div>
     <div id="design" class="serv_block clearfix">
-        <ul class="full_width">
+        <ul>
             <li>
                 <a href="#">
                     <div class="serv_img"><img src="img/services/prototypes.png" alt=""></div>
@@ -39,7 +39,7 @@
         <h3 class="title serv_pr">Фирменый стиль</h3>
     </div>
     <div id="f_style" class="serv_block clearfix">
-        <ul class="full_width">
+        <ul>
             <li>
                 <a href="#">
                     <div class="serv_img"><img src="img/services/pack_dev.png" alt=""></div>
@@ -69,8 +69,8 @@
     <div class="service_titles">
         <h3 class="title serv_pr">Разработка сайта</h3>
     </div>
-    <div id="f_style" class="serv_block clearfix">
-        <ul class="full_width">
+    <div id="site_dev" class="serv_block clearfix">
+        <ul>
             <li>
                 <a href="#">
                     <div class="serv_img"><img src="img/services/landing_page.png" alt=""></div>
@@ -122,7 +122,7 @@
         <h3 class="title serv_pr">Продвижение сайтов</h3>
     </div>
     <div id="seo" class="serv_block clearfix">
-        <ul class="full_width">
+        <ul>
             <li>
                 <a href="#">
                     <div class="serv_img"><img src="img/services/seo.png" alt=""></div>
@@ -183,40 +183,35 @@
         <h5>Данная услуга предоставляется только текущим клиентам UNICORN</h5>
     </div>
     <div id="support" class="serv_block clearfix">
-        <ul class="">
+        <ul>
             <li>
                 <a href="#">
                     <div class="serv_img"><img src="img/services/ext_func.png" alt=""></div>
                     <p class="serv_name">Расширение функционала</p>
-                    <p class="serv_price">от 330$</p>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <div class="serv_img"><img src="img/services/act_banners.png" alt=""></div>
                     <p class="serv_name">создание акционных баннеров</p>
-                    <p class="serv_price">от 150$</p>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <div class="serv_img"><img src="img/services/site_sup.png" alt=""></div>
                     <p class="serv_name">помогаем поддерживать сайт в функциональном состоянии</p>
-                    <p class="serv_price">от 80$</p>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <div class="serv_img"><img src="img/services/consult.png" alt=""></div>
                     <p class="serv_name">Консультирование в технологических решениях</p>
-                    <p class="serv_price">от 600$</p>
                 </a>
             </li>
             <li>
                 <a href="#">
                     <div class="serv_img"><img src="img/services/release.png" alt=""></div>
                     <p class="serv_name">Востановление сайта</p>
-                    <p class="serv_price">от 500$</p>
                 </a>
             </li>
         </ul>
