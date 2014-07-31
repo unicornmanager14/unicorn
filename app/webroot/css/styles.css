@@ -188,6 +188,11 @@ header{
     width:100%;
     position:fixed;
     top:0;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.36);
+    -o-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.36);
+    -ms-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.36);
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.36);
 }
 /* Меню */
 #main_menu{
@@ -213,15 +218,39 @@ header{
     font-size: 14px;
     font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
 }
+#main_menu ul li a:hover {
+    border-bottom: 2px solid;
+    padding-bottom: 14px;
+}
 #main_menu ul li a.logo,
 #mini_main_menu ul li a.logo{
     display: block;
     margin: 10px 0 20px 0;
 }
 #main_menu ul li a.logo{
-    background: url("../img/header/logo.png") no-repeat;
     width: 91px;
     height: 112px;
+    transition: background .4s;
+    -moz-transition: background .4s;
+    -webkit-transition: background .4s;
+    -o-transition: background .4s;
+    -ms-transition: background .4s;  
+}
+.header_top #main_menu ul li a.logo {
+    background: url("../img/header/logo.png") 0px -149px no-repeat;
+}
+.header_top #main_menu ul li a.logo:hover {
+    background-position: 0 29px;
+    border: 0;
+    padding: 0;
+}
+.header_down #main_menu ul li a.logo {
+   background: url("../img/header/logo.png") 0 -310px no-repeat;
+}
+.header_down #main_menu ul li a.logo:hover {
+    background-position: 0 -426px;
+    border: 0;
+    padding: 0;
 }
 #mini_main_menu ul li a.logo{
     background: url("../img/header/mini_logo.png") no-repeat;
@@ -235,27 +264,22 @@ header{
     right: 0;
 }
 #main_menu .lang {
-    top: 45px;
-    background: #000000;
-    border-radius: 50%;
-    border: 1px solid #000000;
+    top: 48px;
+    background: none;
     width: 46px;
     height: 46px;
-    transition: background .2s;
-    -moz-transition: background .2s;
-    -webkit-transition: background .2s;
-    -o-transition: background .2s;
-    -ms-transition: background .2s;
 }
 #main_menu .lang a {
-    color: #ffffff;
+    color: #000000;
     font-family: 'PFAgoraSansPro-Light', sans-serif;
-}
-#main_menu .lang:hover {
-    background: #ffffff;
+    display: inline-block;
+    border-left: 2px solid rgba(0,0,0,0);
+    padding: 0 0 0 8px;
+    height: 11px;
+    line-height: 13px;
 }
 #main_menu .lang:hover a {
-    color: #000000;
+    border-left: 2px solid;
 }
 #mini_main_menu .lang{
     top: 20px;
@@ -271,6 +295,14 @@ header{
 }
 .secondary_nav{
     background-color: #000000;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+    transition: margin-top .3s;
+    -o-transition: margin-top .3s;
+    -webkit-transition: margin-top .3s;
+    -moz-transition: margin-top .3s;
+    -ms-transition: margin-top .3s; 
 }
 .secondary_nav ul li{
     height: 50px;
@@ -836,28 +868,28 @@ transition: background .2s;
 
 /*===----------------------------------------------=== Портфолио ===-----------------------------------------------===*/
 #portfolio{
-    padding: 45px 20px;
+    padding: 99px 20px 45px;
 }
 #portfolio ul li{
     margin-bottom: 90px;
     width: 306px;
 }
-#portfolio ul li .portfolio_img{
+#portfolio ul li .portfolio_img {
     position: relative;
+    background: #000000;
+    overflow: hidden;   
 }
-#portfolio ul li .portfolio_img:hover:before{
-    content: '';
-    display: block;
-    width: 46px;
-    height: 44px;
-    background: url("../img/portfolio/lupa.png") no-repeat;
-    position: absolute;
-    bottom: 16px;
-    left: 27px;
+#portfolio ul li a .portfolio_img img {
+    transition: opacity .2s;
+    -o-transition: opacity .2s;
+    -webkit-transition: opacity .2s;
+    -moz-transition: opacity .2s;
+    -ms-transition: opacity .2s;
 }
-#portfolio ul li a{
+#portfolio ul li a {
     text-decoration: none;
     color: #000000;
+    display: block;
 }
 #portfolio ul li a h3{
     padding: 25px 0 15px 0;
@@ -868,6 +900,85 @@ transition: background .2s;
 #portfolio ul li a p{
     font-size: 14px;
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
+}
+#portfolio ul li a .block_name {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+#portfolio ul li a .block_name .company {
+    font-size: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
+    display: none;
+}
+#portfolio ul li a .block_name .line {
+    height: 2px;
+    width: 53px;
+    background: #ffffff;
+    margin: 9px auto 15px;
+    display: none;
+}
+#portfolio ul li a .block_name .icon {
+    display: inline-block;
+    background: url(../img/portfolio/icon.png) no-repeat;
+    height: 27px;
+    margin: 0 7px;
+    position: relative;
+    top: 300px;
+    transition: top .2s;
+    -o-transition: top .2s;
+    -webkit-transition: top .2s;
+    -moz-transition: top .2s;
+    -ms-transition: top .2s;
+}
+#portfolio ul li a .block_name .icon.adap {
+    width: 19px;
+    transition: top .2s;
+    -o-transition: top .2s;
+    -webkit-transition: top .2s;
+    -moz-transition: top .2s;
+    -ms-transition: top .2s;
+}
+#portfolio ul li a .block_name .icon.seo {
+    width: 25px;
+    background-position: -39px 0;
+    transition: top .2s ease .1s;
+    -o-transition: top .2s ease .1s;
+    -webkit-transition: top .2s ease .1s;
+    -moz-transition: top .2s ease .1s;
+    -ms-transition: top .2s ease .1s;
+}
+#portfolio ul li a .block_name .icon.dev {
+    width: 25px;
+    background-position: -81px 0;
+    transition: top .2s ease .2s;
+    -o-transition: top .2s ease .2s;
+    -webkit-transition: top .2s ease .2s;
+    -moz-transition: top .2s ease .2s;
+    -ms-transition: top .2s ease .2s;
+}
+#portfolio ul li a .block_name .icon.des {
+    width: 13px;
+    background-position: -127px 0;
+    transition: top .2s ease .3s;
+    -o-transition: top .2s ease .3s;
+    -webkit-transition: top .2s ease .3s;
+    -moz-transition: top .2s ease .3s;
+    -ms-transition: top .2s ease .3s;
+}
+#portfolio ul li a:hover .portfolio_img img {
+    opacity: .5;
+}
+#portfolio ul li a:hover .block_name .company {
+    display: block;
+}
+#portfolio ul li a:hover .block_name .line {
+    display: block;
+}
+#portfolio ul li a:hover .block_name .icon {
+    top: 0;
 }
 /*===-------------------------------------------=== Полная нода ===------------------------------------------------===*/
 #single_work{
@@ -898,7 +1009,7 @@ footer{
 footer .copyright {
     color: #303030;
 }
-footer .copyright b {
+footer .copyright .bold {
     font-family: 'PFAgoraSansPro-Bold', sans-serif;
 }
 footer .logo {
