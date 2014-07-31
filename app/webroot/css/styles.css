@@ -679,6 +679,16 @@ header{
     text-align: center;
     width: 250px;
     margin-bottom: 80px;
+    float: left;
+    list-style: none;
+    margin-right: 55px;
+}
+#services .serv_block ul li:nth-child(3n+3){
+    margin-right: 0;
+}
+#services .serv_block ul li a .serv_img{
+    height: 55px;
+    line-height: 55px;
 }
 #services .serv_block a{
     text-decoration: none;

@@ -2,29 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/act_banners.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/ad_design.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/banners.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/brandbook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/buy_text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/consult.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/cont_rek.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/corp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/design_site.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/ext_func.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/im.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/ip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/katalog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/landing_page.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/opt_tp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/pack_dev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/release.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/seo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/site_sup.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/social_net.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/usability.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/visitka.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Services/index.ctp" afterPath="$PROJECT_DIR$/app/View/Services/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/styles.css" afterPath="$PROJECT_DIR$/app/webroot/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unicorn.iws" />
@@ -48,10 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="28" selection-start="4842" selection-end="4842" vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="20621">
+            <state line="674" column="22" selection-start="19556" selection-end="19556" vertical-scroll-proportion="0.43255132" vertical-offset="11163" max-vertical-offset="20791">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Services/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="11" selection-start="454" selection-end="456" vertical-scroll-proportion="-5.8461537" vertical-offset="18" max-vertical-offset="3927">
               <folding />
             </state>
           </provider>
@@ -66,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.ctp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="63" selection-start="2030" selection-end="2030" vertical-scroll-proportion="1.0106708" vertical-offset="0" max-vertical-offset="935">
+            <state line="33" column="58" selection-start="1720" selection-end="1720" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -126,11 +114,11 @@
         <option value="$PROJECT_DIR$/app/Controller/ServicesController.php" />
         <option value="$PROJECT_DIR$/app/View/Layouts/index.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/AboutController.php" />
-        <option value="$PROJECT_DIR$/app/View/Services/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/Elements/main_menu.ctp" />
         <option value="$PROJECT_DIR$/app/webroot/js/scripts.js" />
-        <option value="$PROJECT_DIR$/app/webroot/css/styles.css" />
         <option value="$PROJECT_DIR$/app/View/About/index.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Services/index.ctp" />
+        <option value="$PROJECT_DIR$/app/webroot/css/styles.css" />
       </list>
     </option>
   </component>
@@ -688,29 +676,33 @@
       <created>1406793242081</created>
       <updated>1406793242081</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Денис">
+      <created>1406793314639</created>
+      <updated>1406793314639</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -978,11 +970,6 @@
         <state line="6" column="27" selection-start="264" selection-end="264" vertical-scroll-proportion="0.11710677" vertical-offset="0" max-vertical-offset="871" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Services/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="216" column="50" selection-start="7935" selection-end="7935" vertical-scroll-proportion="0.69822484" vertical-offset="3082" max-vertical-offset="3927" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/View/Layouts/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="0" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.29276693" vertical-offset="493" max-vertical-offset="2652" />
@@ -998,13 +985,6 @@
         <state line="1" column="0" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.56258994" vertical-offset="408" max-vertical-offset="4437" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="28" selection-start="4842" selection-end="4842" vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="20621">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Controller/AboutController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="0" selection-start="108" selection-end="108" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="357">
@@ -1014,7 +994,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="63" selection-start="2030" selection-end="2030" vertical-scroll-proportion="1.0106708" vertical-offset="0" max-vertical-offset="935">
+        <state line="33" column="58" selection-start="1720" selection-end="1720" vertical-scroll-proportion="-21.576923" vertical-offset="0" max-vertical-offset="935">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Services/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="454" selection-end="456" vertical-scroll-proportion="-5.8461537" vertical-offset="18" max-vertical-offset="3927">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="674" column="22" selection-start="19556" selection-end="19556" vertical-scroll-proportion="0.43255132" vertical-offset="11163" max-vertical-offset="20791">
           <folding />
         </state>
       </provider>
