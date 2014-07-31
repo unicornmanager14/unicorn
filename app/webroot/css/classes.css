@@ -180,6 +180,9 @@ footer:after{
 .ds_inline{
     display: inline-block;
 }
+.ds_line {
+    display: inline;
+}
 .ds_table{
     display: table;
 }

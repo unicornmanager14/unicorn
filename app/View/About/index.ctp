@@ -1,3 +1,13 @@
+<div class="secondary_nav">
+    <div class="container">
+        <ul class="unstyled our_about text-center">
+            <li class="ds_inline"><a href="#">О нас</a></li>
+            <li class="ds_inline"><a href="#">Команда</a></li>
+        </ul>
+    </div>
+</div>
+
+
 <section id="about" class="container">
 
     <!-- Пару слов о нас -->
@@ -20,6 +30,12 @@
             <p class="f_width">Наиболее главным и значимым фактором, помогающим нам достигать результатов, являемся мы сами.</p>
             <img class="supermans" src="img/about/supermans.png" alt="" />
             <p class="f_width">Если ты чуствуешь себя героем и желаешь трудиться к нам, присылайте ваши резюме на наш email.</p>
+            <span class="we_needs">нам нужны</span>
+            <div class="text-center">
+                <div class="post ds_line"><span>Web designer</span>,</div>
+                <div class="post ds_line"><span>Account Manager</span>,</div>
+                <div class="post ds_line"><span>SEO-специалист</span></div>
+            </div>
             <a href="mailto:job@theunicorn.com">job@theunicorn.com</a>
             <h3 class="">Ключевые персоны</h3>
             <div class="clearfix">

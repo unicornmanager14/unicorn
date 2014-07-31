@@ -207,7 +207,10 @@ header{
     background-color: #ffffff;
     z-index: 10000;
 }
-
+#main_menu ul {
+    left: -22px;
+    position: relative;
+}
 #main_menu,
 #mini_main_menu .container{
     padding: 0 160px;
@@ -755,6 +758,12 @@ header{
 }
 
 /*===---------------------------------------------=== О нас ===----------------------------------------------------===*/
+#about {
+    margin-top: 47px;
+}
+.our_about li {
+    margin: 0 18px;
+}
 #about.container{
     padding: 0 90px 100px 90px;
 }
@@ -858,6 +867,11 @@ header{
     color: #616161;
     font-size: 12px;
     padding-top: 5px;
+}
+#about .our_team .we_needs {
+    font-size: 16px;
+    font-family: 'PFAgoraSansPro-Bold', sans-serif;
+    color: 
 }
 
 /*===-----------------------------------------=== Заказать проект ===----------------------------------------------===*/
