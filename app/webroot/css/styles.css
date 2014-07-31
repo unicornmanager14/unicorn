@@ -945,7 +945,12 @@ header{
     border: 0;
     width: 285px;
     margin-bottom: 20px;
+    color: #ffffff;
 }
+#order_project .order_project_content .contact_form textarea:focus,#order_project .order_project_content .contact_form input[type='text']:focus{
+    outline: 0;
+    border: 1px solid snow;
+    }
 #order_project .order_project_content .contact_form textarea{
     background: #1e668f;
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
@@ -956,6 +961,7 @@ header{
     resize: none;
     float: left;
     height: 42px;
+    color: #ffffff;
 }
 #order_project .order_project_content .contact_form .breaf p{
     font-size: 14px;
@@ -980,7 +986,13 @@ header{
     -ms-transition: color .2s;
 }
 #order_project .order_project_content .contact_form input[type='submit']:hover {
-    color: #2a94d2;
+    color: #1e668f;
+    border: 4px solid #1e668f;
+    height: 60px;
+    padding: 0 60px;
+    line-height: 60px;
+    margin: 90px auto 0 auto;
+    color: #262626;
 }
 #order_project .input_drop {
     position: relative;
@@ -1094,6 +1106,9 @@ header{
 #social_media .footer_contact a {
    color: #ea3a15;
    text-decoration: none;
+}
+#social_media .footer_contact a:hover {
+    text-decoration: underline;
 }
 #social_media .footer_contact > li {
     margin-bottom: 25px;

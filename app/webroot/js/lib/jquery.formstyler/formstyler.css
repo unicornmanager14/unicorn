@@ -94,7 +94,7 @@
     -ms-transition: opacity .2s;
 }
 .jq-file:hover .jq-file__browse {
-	opacity: .8;
+	opacity: .8;	background-color: #0f2937;
 }
 .jq-file:active .jq-file__browse {
 
