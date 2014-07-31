@@ -687,7 +687,7 @@ header{
 #services .serv_block ul li:nth-child(3n+3){
     margin-right: 0;
 }
-#services .serv_block ul li a .serv_img{
+#services .serv_block ul li .serv_img{
     height: 55px;
     line-height: 55px;
 }
@@ -710,10 +710,10 @@ header{
     color: #c18cd7;
 }
 #f_style ul li:hover .serv_name{
-    color: #7866bd;
+    color: #478cc2;
 }
 #site_dev ul li:hover .serv_name{
-    color: #478cc2;
+    color: #7866bd;
 }
 #seo ul li:hover .serv_name{
     color: #cd6341;
@@ -734,10 +734,10 @@ header{
     border-color: #c18cd7;
 }
 #f_style{
-    border-color: #7866bd;
+    border-color: #478cc2;
 }
 #site_dev{
-    border-color: #478cc2;
+    border-color: #7866bd;
 }
 #seo{
     border-color: #cd6341;
