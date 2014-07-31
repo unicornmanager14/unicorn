@@ -88,7 +88,15 @@ body{
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
     background: #f7f7f7;
 }
-
+.title{
+    font-family: 'PFAgoraSansPro-Bold', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.desc_page{
+    font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
+    font-size: 14px;
+}
 
 /**********************************************************************************************************************/
 /*===----------------------------------------------=== Текст ===--------------------------------------------------====*/
@@ -354,7 +362,6 @@ header{
 #who_we_are p span{
     color: #ffab09;
 }
-/*===---------------------------------------------=== Наши услуги ===----------------------------------------------===*/
 #our_services{
         padding-bottom: 20px;
        /* overflow: hidden;*/
@@ -634,6 +641,183 @@ header{
     position: absolute;
     top: 73px;
     right: -2000px;
+}
+/*===-------------------------------------------=== Наши услуги ===------------------------------------------------===*/
+#services h1.title{
+    padding: 75px 0 50px 0;
+    text-align: center;
+}
+#services .desc_page{
+    text-align: center;
+    width: 750px;
+    margin: 0 auto;
+}
+#services .serv_pr{
+    padding: 60px 0;
+    text-align: center;
+}
+#services .service_titles{
+    text-align: center;
+}
+#services .service_titles h4,
+#services .service_titles h5{
+    font-family: 'PFAgoraSansPro-Regular', Arial, sans-serif;
+    font-weight: normal;
+}
+#services .service_titles h4{
+    font-size: 18px;
+
+}
+#services .service_titles h5{
+    font-size: 14px;
+    padding-bottom: 55px;
+}
+#services .serv_block{
+    margin-bottom: 75px;
+}
+#services .serv_block ul li{
+    text-align: center;
+    width: 250px;
+    margin-bottom: 80px;
+}
+#services .serv_block a{
+    text-decoration: none;
+    display: block;
+}
+#services .serv_name{
+    font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
+    font-size: 16px;
+    color: #000000;
+    padding: 25px 0 20px 0;
+    text-transform: uppercase;
+    line-height: 24px;
+}
+#services .serv_price{
+    color: #5c5c5c;
+    font-size: 16px;
+}
+/* Дизайн */
+#design, #f_style, #seo, #support{
+    border: 3px solid;
+    padding: 80px 60px 0 60px;
+}
+#design{
+    border-color: #c18cd7;
+}
+#f_style{
+    border-color: #7866bd;
+}
+#seo{
+    border-color: #cd6341;
+}
+#support{
+    border-color: #f1ae4e;
+}
+
+/*===---------------------------------------------=== О нас ===----------------------------------------------------===*/
+#about.container{
+    padding: 0 90px 100px 90px;
+}
+#about article{
+    width: 685px;
+    margin: 0 auto;
+}
+#about h1.title{
+    padding: 80px 0;
+}
+#about h2.title{
+    padding: 150px 0 60px 0;
+}
+#about article{
+    border: 3px solid;
+    padding: 60px 70px;
+}
+
+/* Пару слов о нас */
+#about .two_words{
+    border-color: #2097ee;
+}
+#about .two_words p{
+    font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding-top: 60px;
+    line-height: 36px;
+}
+#about .two_words .copyright{
+    padding-top: 60px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+#about .two_words .copyright strong{
+    font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
+    font-size: 14px;
+}
+#about .two_words .copyright .founded{
+    color: #959595;
+    font-family: 'PFAgoraSansPro-Thin', Arial, sans-serif;
+    padding-top: 7px;
+}
+/* Наша команда */
+#about .our_team{
+    border-color: #f4b801;
+}
+#about .our_team h2{
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+#about .our_team h3{
+    font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    padding: 80px 0 60px 0;
+}
+#about .our_team p{
+    font-size: 16px;
+    margin: 0 auto;
+}
+#about .our_team p.f_width{
+    width: 400px;
+}
+#about .our_team img.supermans{
+    padding: 35px 0;
+}
+#about .our_team a{
+    line-height: 45px;
+    margin: 35px 0 0 0;
+    display: inline-block;
+    border: 1px solid #000000;
+    padding: 0 50px;
+    font-size: 16px;
+    color: #000000;
+    text-decoration: none;
+}
+#about .our_team ul{
+    list-style: none;
+    text-align: left;
+}
+#about .our_team ul li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 60px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+#about .our_team ul li:nth-child(3n+3){
+    margin-right: 0;
+
+}
+#about .our_team ul li p.name{
+    font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
+    font-size: 14px;
+    padding-top: 20px;
+}
+#about .our_team ul li p.position{
+    color: #616161;
+    font-size: 12px;
+    padding-top: 5px;
 }
 
 /*===-----------------------------------------=== Заказать проект ===----------------------------------------------===*/
