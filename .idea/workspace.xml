@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/About/index.ctp" afterPath="$PROJECT_DIR$/app/View/About/index.ctp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/act_banners.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/ad_design.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/banners.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/brandbook.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/buy_text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/consult.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/cont_rek.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/corp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/design_site.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/ext_func.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/im.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/ip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/katalog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/landing_page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/opt_tp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/pack_dev.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/release.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/seo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/site_sup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/social_net.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/usability.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/webroot/img/services/visitka.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unicorn.iws" />
@@ -47,7 +69,7 @@
       <file leaf-file-name="index.ctp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="63" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.58536583" vertical-offset="279" max-vertical-offset="935">
+            <state line="39" column="63" selection-start="2030" selection-end="2030" vertical-scroll-proportion="1.0106708" vertical-offset="0" max-vertical-offset="935">
               <folding />
             </state>
           </provider>
@@ -236,6 +258,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -636,12 +684,16 @@
       <created>1406793205642</created>
       <updated>1406793205642</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Денис">
+      <created>1406793242081</created>
+      <updated>1406793242081</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -649,7 +701,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17522465" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -962,7 +1014,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="63" selection-start="2030" selection-end="2030" vertical-scroll-proportion="0.58536583" vertical-offset="279" max-vertical-offset="935">
+        <state line="39" column="63" selection-start="2030" selection-end="2030" vertical-scroll-proportion="1.0106708" vertical-offset="0" max-vertical-offset="935">
           <folding />
         </state>
       </provider>
