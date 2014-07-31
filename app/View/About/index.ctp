@@ -37,7 +37,7 @@
                     <li>
                         <img src="img/about/evg.png" alt="" />
                         <p class="name">Евгений Дорохин</p>
-                        <p class="position">Ведущий программист111</p>
+                        <p class="position">Ведущий программист</p>
                     </li>
                 </ul>
             </div>
