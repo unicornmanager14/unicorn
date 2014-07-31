@@ -284,7 +284,7 @@ header{
     border-left: 2px solid rgba(0,0,0,0);
     padding: 0 0 0 8px;
     height: 11px;
-    line-height: 13px;
+    line-height: 11px;
 }
 #main_menu .lang:hover a {
     border-left: 2px solid;
