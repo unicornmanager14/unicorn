@@ -872,7 +872,23 @@ header{
 #about .our_team .we_needs {
     font-size: 16px;
     font-family: 'PFAgoraSansPro-Bold', sans-serif;
-    color: 
+    color: #000000;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 25px 0 5px;
+}
+#about .our_team .post {
+    color: #000000;
+    font-size: 16px;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
+}
+#about .our_team .post span {
+    color: #478cc2;
+    text-decoration: underline;
+    cursor: pointer;
+}
+#about .our_team .post span:hover {
+    color: #ff002f;
 }
 
 /*===-----------------------------------------=== Заказать проект ===----------------------------------------------===*/
