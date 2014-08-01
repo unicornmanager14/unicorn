@@ -881,15 +881,73 @@ header{
     color: #000000;
     font-size: 16px;
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
+    position: relative;
 }
 #about .our_team .post span {
     color: #478cc2;
     text-decoration: underline;
     cursor: pointer;
+    transition: color .2s;
+    -o-transition: color .2s;
+    -moz-transition: color .2s;
+    -webkit-transition: color .2s;
+    -ms-transition: color .2s;
 }
 #about .our_team .post span:hover {
     color: #ff002f;
 }
+#about .our_team .post.a span {
+    color: #ff002f;
+}
+#about .our_team .post_info {
+    position: absolute;
+    bottom: 32px;
+    left: 50%;
+    width: 597px;
+    margin: 0 0 0 -248px;
+    background: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    text-align: left;
+    padding: 30px;
+    display: none;
+}
+        #about .our_team .post_info.post_info_01 {
+            left: 86%;
+        }
+        #about .our_team .post_info.post_info_01:after {
+            content: '';
+            background: url(../img/about/tr.png) no-repeat;
+            width: 17px;
+            height: 9px;
+            position: absolute;
+            bottom: -9px;
+            left: 31%;
+        }
+        #about .our_team .post_info.post_info_02 {
+            left: -3%;
+        }
+        #about .our_team .post_info.post_info_02:after {
+            content: '';
+            background: url(../img/about/tr.png) no-repeat;
+            width: 17px;
+            height: 9px;
+            position: absolute;
+            bottom: -9px;
+            left: 46%;
+        }
+        #about .our_team .post_info.post_info_03 {
+            left: -112%;
+        }
+        #about .our_team .post_info.post_info_03:after {
+            content: '';
+            background: url(../img/about/tr.png) no-repeat;
+            width: 17px;
+            height: 9px;
+            position: absolute;
+            bottom: -9px;
+            left: 65%;
+        }
 
 /*===-----------------------------------------=== Заказать проект ===----------------------------------------------===*/
 #order_project{
@@ -959,12 +1017,13 @@ header{
     padding: 13px 17px;
     font-size: 14px;
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
-    border: 0;
+    border: 1px solid rgba(0,0,0,0);
     width: 285px;
     margin-bottom: 20px;
     color: #ffffff;
 }
-#order_project .order_project_content .contact_form textarea:focus,#order_project .order_project_content .contact_form input[type='text']:focus{
+#order_project .order_project_content .contact_form textarea:focus,
+#order_project .order_project_content .contact_form input[type='text']:focus{
     outline: 0;
     border: 1px solid snow;
     }
@@ -977,7 +1036,7 @@ header{
     border: 0;
     resize: none;
     float: left;
-    height: 42px;
+    height: 43px;
     color: #ffffff;
 }
 #order_project .order_project_content .contact_form .breaf p{
@@ -1003,13 +1062,8 @@ header{
     -ms-transition: color .2s;
 }
 #order_project .order_project_content .contact_form input[type='submit']:hover {
-    color: #1e668f;
     border: 4px solid #1e668f;
-    height: 60px;
-    padding: 0 60px;
-    line-height: 60px;
-    margin: 90px auto 0 auto;
-    color: #262626;
+    line-height: 51px;
 }
 #order_project .input_drop {
     position: relative;
@@ -1018,6 +1072,9 @@ header{
 #order_project .input_drop input {
     margin-bottom: 0 !important;
     cursor: pointer;
+}
+#order_project .input_drop input:focus {
+    border: 1px solid rgba(0,0,0,0) !important; 
 }
 .arrow {
     width: 19px;
@@ -1042,7 +1099,7 @@ header{
     padding: 6px 23px 6px 11px;
     display: none;
     position: absolute;
-    width: 285px;
+    width: 287px;
 }
 #order_project .input_drop .radio-btn {padding-left: 8px;margin: 3px 0;}
 #order_project .input_drop input[type=checkbox] {display: none;}

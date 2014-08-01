@@ -258,4 +258,20 @@ $(document).ready(function() {
 
 
 
+
+
+// Вакансии на странице "О нас"
+$('#about .our_team .post').on('click',function(e) {
+  e.stopPropagation();
+  if ($(this).hasClass('a')) {
+    $('#about .our_team .post').removeClass('a').find('.post_info').fadeOut();
+  } else {
+    $('#about .our_team .post').removeClass('a').find('.post_info').fadeOut();
+    $(this).addClass('a').find('.post_info').fadeIn();
+  }
+});
+    $('body').on('click',function() {
+      $('#about .our_team .post').removeClass('a').find('.post_info').fadeOut();
+    });
+
 });
