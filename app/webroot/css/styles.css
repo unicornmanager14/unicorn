@@ -844,6 +844,10 @@ header{
     color: #000000;
     text-decoration: none;
 }
+#about .our_team a:hover {
+    color: #478cc2;
+    border-color: #478cc2;
+}
 #about .our_team ul{
     list-style: none;
     text-align: left;
