@@ -274,4 +274,26 @@ $('#about .our_team .post').on('click',function(e) {
       $('#about .our_team .post').removeClass('a').find('.post_info').fadeOut();
     });
 
+
+// Якорь для ссылки
+$('a').on('click',function() {
+  var Href_link = $(this).attr("href"),
+      Href = Href_link.replace('#',''),
+      Cord = $('[data-id="'+Href+'"]').offset().top;;
+  $('html, body').stop().animate({scrollTop: Cord-150});
+  
 });
+
+
+
+
+
+
+
+
+
+});
+
+
+
+

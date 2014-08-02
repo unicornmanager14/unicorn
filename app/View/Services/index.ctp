@@ -1,3 +1,17 @@
+<div class="secondary_nav">
+    <div class="container">
+        <ul class="unstyled full_width our_works">
+            <li class="r-bracket"><span>Все работы</span></li>
+            <li><a href="#design">Дизайн</a></li>
+            <li><a href="#f_style">Фирменый стиль</a></li>
+            <li><a href="#site_dev">Разработка сайта</a></li>
+            <li><a href="#seo">Продвижение</a></li>
+            <li><a href="#support">Потдержка</a></li>
+        </ul>
+    </div>
+</div>
+
+
 <div id="services" class="container">
 
     <h1 class="title">Услуги и цены</h1>
@@ -5,7 +19,7 @@
 
     <!-- Дизайн -->
     <div class="service_titles">
-        <h3 class="title serv_pr">Дизайн</h3>
+        <h3 data-id="design" class="title serv_pr">Дизайн</h3>
     </div>
     <div id="design" class="serv_block clearfix">
         <ul>
@@ -36,7 +50,7 @@
 
     <!-- Фирменный стиль -->
     <div class="service_titles">
-        <h3 class="title serv_pr">Фирменый стиль</h3>
+        <h3 data-id="f_style" class="title serv_pr">Фирменый стиль</h3>
     </div>
     <div id="f_style" class="serv_block clearfix">
         <ul>
@@ -67,7 +81,7 @@
 
     <!-- Разработка сайта -->
     <div class="service_titles">
-        <h3 class="title serv_pr">Разработка сайта</h3>
+        <h3 data-id="site_dev" class="title serv_pr">Разработка сайта</h3>
     </div>
     <div id="site_dev" class="serv_block clearfix">
         <ul>
@@ -119,7 +133,7 @@
 
     <!-- Продвижение -->
     <div class="service_titles">
-        <h3 class="title serv_pr">Продвижение сайтов</h3>
+        <h3 data-id="seo" class="title serv_pr">Продвижение сайтов</h3>
     </div>
     <div id="seo" class="serv_block clearfix">
         <ul>
@@ -178,7 +192,7 @@
 
     <!-- Поддержка -->
     <div class="service_titles">
-        <h3 class="title serv_pr">Поддержка</h3>
+        <h3 data-id="support" class="title serv_pr">Поддержка</h3>
         <h4>Стоимость услуг: от 200$ в месяц.</h4>
         <h5>Данная услуга предоставляется только текущим клиентам UNICORN</h5>
     </div>

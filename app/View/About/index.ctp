@@ -1,8 +1,8 @@
 <div class="secondary_nav">
     <div class="container">
         <ul class="unstyled our_about text-center">
-            <li class="ds_inline"><a href="#">О нас</a></li>
-            <li class="ds_inline"><a href="#">Команда</a></li>
+            <li class="ds_inline"><a href="#about_us" onclick="$('html, body').stop().animate({scrollTop: 0});">О нас</a></li>
+            <li class="ds_inline"><a href="#team">Команда</a></li>
         </ul>
     </div>
 </div>
@@ -23,7 +23,7 @@
     <!-- /Пару слов о нас -->
 
     <!-- Команда -->
-    <h2 class="title text-center">Наша команда</h2>
+    <h2 data-id="team" class="title text-center">Наша команда</h2>
     <article class="our_team">
         <div class="text-center">
             <h2>В нашей команде работают только супергерои</h2>

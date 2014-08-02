@@ -289,7 +289,7 @@ header{
     height: 11px;
     line-height: 11px;
 }
-#main_menu .lang:hover a {
+#main_menu .lang a:hover {
     border-left: 2px solid;
 }
 #mini_main_menu .lang{
@@ -319,6 +319,13 @@ header{
     height: 50px;
     line-height: 50px;
     position: relative;
+}
+.secondary_nav ul li span {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
 }
 .secondary_nav ul li a{
     color: #7a7a7a;
@@ -646,6 +653,9 @@ header{
     right: -2000px;
 }
 /*===-------------------------------------------=== Наши услуги ===------------------------------------------------===*/
+#services {
+    margin-top: 56px;
+}
 #services h1.title{
     padding: 75px 0 50px 0;
     text-align: center;
@@ -656,7 +666,7 @@ header{
     margin: 0 auto;
 }
 #services .serv_pr{
-    padding: 60px 0;
+    margin: 60px 0;
     text-align: center;
 }
 #services .service_titles{
@@ -760,7 +770,7 @@ header{
 
 /*===---------------------------------------------=== О нас ===----------------------------------------------------===*/
 #about {
-    margin-top: 47px;
+    margin-top: 127px;
 }
 .our_about li {
     margin: 0 18px;
@@ -773,10 +783,10 @@ header{
     margin: 0 auto;
 }
 #about h1.title{
-    padding: 80px 0;
+    margin: 80px 0;
 }
 #about h2.title{
-    padding: 150px 0 60px 0;
+    margin: 150px 0 60px 0;
 }
 #about article{
     border: 3px solid;
