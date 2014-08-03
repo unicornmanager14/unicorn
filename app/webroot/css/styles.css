@@ -1359,6 +1359,7 @@ header{
 #single_work .description {
     border-bottom: 1px solid #dbdbdb;
     margin: 54px 0 0;
+    padding: 0 0 27px;
 }
 #single_work .description .title {
     padding: 0 0 33px 49px;
