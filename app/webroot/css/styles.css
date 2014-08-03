@@ -1322,21 +1322,103 @@ header{
 }
 #single_work h1{
     font-family: 'PFAgoraSansPro-Bold', sans-serif;
-    font-size: 30px;
+    font-size: 48px;
     text-transform: uppercase;
-    padding: 105px 0 35px 0;
+    margin: 103px 0 22px 0;
+    line-height: 36px;
 }
-#pr_desc{
+#single_work .link_site {
     font-size: 14px;
-    font-family: 'PFAgoraSansPro-Regular', sans-serif;
-    padding-bottom: 60px;
-}
-#what_we_do{
-    font-family: 'PFAgoraSansPro-Bold', sans-serif;
-    font-size: 15px;
     text-transform: uppercase;
-    padding-bottom: 50px;
+    color: #000000;
+    text-decoration: none;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
 }
+#single_work .link_site:hover {
+    text-decoration: underline;
+}
+#single_work .line_single_work {
+    width: 149px;
+    height: 2px;
+    margin: 23px auto 15px;
+    background: #000000;
+}
+#single_work .brief_description {
+    color: #000000;
+    font-size: 24px;
+    line-height: 36px;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
+}
+#single_work .title {
+    font-size: 24px;
+    text-transform: uppercase;
+    background: url(../img/portfolio/icon_s.png) no-repeat;
+    line-height: 27px;
+    font-family: 'PFAgoraSansPro-Regular', sans-serif;
+}
+#single_work .description {
+    border-bottom: 1px solid #dbdbdb;
+    margin: 54px 0 0;
+}
+#single_work .description .title {
+    padding: 0 0 33px 49px;
+}
+#single_work .description .text {
+    width: 47%;
+}
+#single_work .description .text p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+}
+#single_work .design_and_create {
+    border-bottom: 1px solid #dbdbdb;
+    margin: 54px 0 0;
+    padding: 0 0 72px;
+}
+#single_work .design_and_create .title {
+    line-height: 37px;
+    background-position: 0 -77px;
+    padding-left: 36px;
+}
+#single_work .technical_information  {
+    border-bottom: 1px solid #dbdbdb;
+    margin: 58px 0 0;
+    padding: 0 0 34px;
+}
+#single_work .technical_information .title {
+    background-position: 0 -160px;
+    padding: 0 0 24px 51px;
+    line-height: 33px;
+}
+#single_work .technical_information p {
+    font-family: 'PFAgoraSansPro-Light', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+}
+#single_work .padding_single {
+    padding: 0 20px;
+}
+#single_work .ralated_projects {
+    margin: 58px 0 0;
+    padding: 0;
+}
+#single_work .ralated_projects .title {
+    background-position: 0 -258px;
+    padding: 0 0 10px 68px;
+    line-height: 31px;
+    margin: 0 0 -58px 0;
+}
+#single_work #portfolio {
+    padding-bottom: 0;
+}
+
+#single_work #portfolio ul li {
+    margin-bottom: 85px;
+}    
+
+
+
 /*===-----------------------------------------------=== Footer ===-------------------------------------------------===*/
 footer{
     padding: 32px 0 29px;
