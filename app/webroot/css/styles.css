@@ -824,14 +824,13 @@ header{
 }
 #about .our_team h2{
     text-transform: uppercase;
-    font-weight: normal;
     font-size: 24px;
     padding-bottom: 30px;
 }
 #about .our_team h3{
     font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 20px;
     padding: 80px 0 60px 0;
 }
 #about .our_team p{
@@ -1422,22 +1421,22 @@ header{
     padding-top: 85px;
 }
 #contacts .contacts_links{
-    margin: 40px auto 55px auto;
+    margin: 40px auto 48px auto;
 }
 #contacts .contacts_links li{
     display: inline-block;
-    margin-left: 35px;
+    margin: 0 16px;
     height: 30px;
-    line-height: 30px;
+    line-height: 20px;
 }
 #contacts .contacts_links li.msg{
     background: url("../img/contacts/msg.png") no-repeat;
-    padding-left: 50px;
+    padding-left: 54px;
 
 }
 #contacts .contacts_links li.skype{
     background: url("../img/contacts/skype.png") no-repeat;
-    padding-left: 40px;
+    padding-left: 43px;
 
 }
 #contacts .contacts_links li a{
@@ -1454,6 +1453,7 @@ header{
 #contacts .phones p{
     font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
     font-size: 44px;
+    line-height: 57px;
 }
 #contacts .schedule{
     font-size: 18px;
