@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="UTF-8">
     <?php echo $this->Html->charset(); ?>
     <title><?php echo $page_title; ?></title>
 
