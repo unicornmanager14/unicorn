@@ -3,7 +3,6 @@
 class AboutController extends AppController{
 
 
-    protected $_name;
 
 
     public function index(){

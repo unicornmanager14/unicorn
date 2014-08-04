@@ -1416,8 +1416,51 @@ header{
 
 #single_work #portfolio ul li {
     margin-bottom: 85px;
-}    
+}
+/*===-----------------------------------------=== Наши контакты ===------------------------------------------------===*/
+#contacts{
+    padding-top: 85px;
+}
+#contacts .contacts_links{
+    margin: 40px auto 55px auto;
+}
+#contacts .contacts_links li{
+    display: inline-block;
+    margin-left: 35px;
+    height: 30px;
+    line-height: 30px;
+}
+#contacts .contacts_links li.msg{
+    background: url("../img/contacts/msg.png") no-repeat;
+    padding-left: 50px;
 
+}
+#contacts .contacts_links li.skype{
+    background: url("../img/contacts/skype.png") no-repeat;
+    padding-left: 40px;
+
+}
+#contacts .contacts_links li a{
+    color: #000000;
+    font-size: 18px;
+    text-decoration: none;
+}
+#contacts .phones{
+    border-bottom: 1px solid #d6d6d6;
+    padding-bottom: 30px;
+    width: 410px;
+    margin: 0 auto 30px auto;
+}
+#contacts .phones p{
+    font-family: 'PFAgoraSansPro-Bold', Arial, sans-serif;
+    font-size: 44px;
+}
+#contacts .schedule{
+    font-size: 18px;
+    line-height: 24px;
+    width: 345px;
+    margin: 0 auto 100px auto;
+}
 
 
 /*===-----------------------------------------------=== Footer ===-------------------------------------------------===*/
