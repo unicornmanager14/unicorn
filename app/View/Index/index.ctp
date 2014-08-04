@@ -91,6 +91,6 @@
     <!-- /Our Services -->
 </div>
 
-<?php
-debug($slider);
+<?php 
+    debug($slider);
 ?>

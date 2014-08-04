@@ -23,13 +23,13 @@
     <!-- /Пару слов о нас -->
 
     <!-- Команда -->
-    <h2 data-id="team" class="title text-center">Наша команда</h2>
+    <h2 data-id="team" class="title text-center">Команда</h2>
     <article class="our_team">
         <div class="text-center">
             <h2>В нашей команде работают только супергерои</h2>
-            <p class="f_width">Наиболее главным и значимым фактором, помогающим нам достигать результатов, являемся мы сами.</p>
+            <p class="f_width">Наиболее главным и значимым фактором, <br>помогающим нам достигать результатов, являемся мы сами.</p>
             <img class="supermans" src="img/about/supermans.png" alt="" />
-            <p class="f_width">Если ты чуствуешь себя героем и желаешь трудиться к нам, присылайте ваши резюме на наш email.</p>
+            <p class="f_width">Если ты чуствуешь себя героем и желаешь трудиться с ними, присылайте ваши резюме на наш email.</p>
             <span class="we_needs">нам нужны</span>
             <div class="text-center">
                 <div class="post ds_line"><span>Web designer</span>, 
