@@ -722,23 +722,23 @@ header{
     display: inline;
 
 }
-#design ul li:hover .serv_name{
+#design ul li a:hover .serv_name{
     color: #c18cd7;
     border-bottom: 1px solid #c18cd7;
 }
-#f_style ul li:hover .serv_name{
+#f_style ul li a:hover .serv_name{
     color: #478cc2;
     border-bottom: 1px solid #478cc2;
 }
-#site_dev ul li:hover .serv_name{
+#site_dev ul li a:hover .serv_name{
     color: #7866bd;
     border-bottom: 1px solid #7866bd;
 }
-#seo ul li:hover .serv_name{
+#seo ul li a:hover .serv_name{
     color: #cd6341;
     border-bottom: 1px solid #cd6341;
 }
-#support ul li:hover .serv_name{
+#support ul li a:hover .serv_name{
     color: #f1ae4e;
     border-bottom: 1px solid #f1ae4e;
 }
@@ -766,6 +766,9 @@ header{
 }
 #support{
     border-color: #f1ae4e;
+}
+#support ul li .serv_name {
+    border: 0;
 }
 
 /*===---------------------------------------------=== О нас ===----------------------------------------------------===*/
