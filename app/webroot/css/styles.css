@@ -1454,6 +1454,9 @@ header{
     font-size: 18px;
     text-decoration: none;
 }
+#contacts .contacts_links li a:hover {
+    text-decoration: underline;
+}
 #contacts .phones{
     border-bottom: 1px solid #d6d6d6;
     padding-bottom: 30px;
