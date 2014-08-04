@@ -90,7 +90,3 @@
     </section>
     <!-- /Our Services -->
 </div>
-
-<?php 
-    debug($slider);
-?>

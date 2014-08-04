@@ -1,29 +1,6 @@
-<section id="contacts" class="container text-center">
-
-    <!-- Наши контакты -->
-    <h1 class="title text-center">Контакты</h1>
-    <article class="text-center">
-        <ul class="contacts_links">
-            <li class="msg">
-                <a href="mailto:info@theunicorn.com">info@theunicorn.com</a>
-            </li>
-            <li class="skype">
-                <a href="mailto:info@theunicorn.com">theunicorn.com.ua</a>
-            </li>
-        </ul>
-    </article>
-    <article class="phones">
-        <p>+8 063 115 67 30</p>
-        <p>+8 048 454 85 78</p>
-    </article>
-
-    <article class="schedule">
-        <p>Мы работаем каждый день, кроме субботы и воскресенья, с 10:00 до 19:00. <br>Ждем ваших вопросов и предложений!</p>
-    </article>
+<div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d87952.03605510437!2d30.7346085!3d46.458580999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2sua!4v1404642799104" width="100%" height="570" frameborder="0" style="border:0"></iframe>
 
 
 
-
-
-
-</section>
+</div>

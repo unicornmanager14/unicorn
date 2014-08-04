@@ -96,11 +96,11 @@
                     <input type="submit" value="Отправить" />
                 </form>
             </div>
-            <img src="img/order/papper.png" alt="papper" class="papper">
-            <img src="img/order/envelope.png" alt="envelope" class="envelope">
-            <img src="img/order/pan.png" alt="pan" class="pan">
-            <img src="img/order/konvert.png" alt="konvert" class="konvert">
-            <img src="img/order/calculator.png" alt="calculator" class="calculator">
+            <img src="/img/order/papper.png" alt="papper" class="papper">
+            <img src="/img/order/envelope.png" alt="envelope" class="envelope">
+            <img src="/img/order/pan.png" alt="pan" class="pan">
+            <img src="/img/order/konvert.png" alt="konvert" class="konvert">
+            <img src="/img/order/calculator.png" alt="calculator" class="calculator">
         </div>
     </div>
     <div class="rainbow"></div>
@@ -133,9 +133,9 @@
         </div>
         <ul class="unstyled footer_contact">
             <h4>следуй за  единорогом</h4>
-            <li><a href="#"><img src="img/social_media/vimeo.png" alt=""/></a></li>
-            <li><a href="#"><img src="img/social_media/twitter.png" alt=""/></a></li>
-            <li><a href="#"><img src="img/social_media/facebook.png" alt=""/></a></li>
+            <li><a href="#"><img src="/img/social_media/vimeo.png" alt=""/></a></li>
+            <li><a href="#"><img src="/img/social_media/twitter.png" alt=""/></a></li>
+            <li><a href="#"><img src="/img/social_media/facebook.png" alt=""/></a></li>
         </ul>
     </div>
 </section>
@@ -145,7 +145,7 @@
 <footer>
     <div class="container full_width">
         <span class="copyright">© <span class="bold">Unicorn.</span> Все права защищены 2014.</span>
-        <a href="#" class="logo"><img src="img/footer/logo.png" alt="logo"></a>
+        <a href="#" class="logo"><img src="/img/footer/logo.png" alt="logo"></a>
         <span class="phone">+38 (048) 258-87-65</span>
     </div>
 </footer>

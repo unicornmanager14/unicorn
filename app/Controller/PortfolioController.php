@@ -5,17 +5,24 @@ class PortfolioController extends AppController{
     public $uses = array('portfolio');
 
     public function index($sort = ''){
-        $this->layout = 'portfolio';
+
+        $all_works = $this->portfolio->find('all');
         $page_title = 'Портфолио';
-        $this->set('page_title', $page_title);
-        $this->set('all', $sort);
+
+        $data = array(
+            'all_work' => $all_works,
+            'page_title' => $page_title,
+            'all' => $sort
+        );
+
+        $this->layout = 'index';
+
+        $this->set($data);
 
     }
     public function single($work){
-        $this->layout = 'single';
+        $this->layout = 'index';
         $page_title = $work;
-
-        //$single_work = $this->portfolio->find('all');
 
         $single_work = $this->portfolio->find('all', array(
             'conditions' => array(
@@ -29,9 +36,7 @@ class PortfolioController extends AppController{
             'single_work' => $single_work,
         );
 
-
         $this->set($data);
 
     }
-
 }

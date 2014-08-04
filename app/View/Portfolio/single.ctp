@@ -29,7 +29,3 @@
 
     </div>
 </section>
-
-<?php
-
-//debug($single_work);dsfdsf

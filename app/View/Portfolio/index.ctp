@@ -1,3 +1,7 @@
+
+
+
+
 <div class="secondary_nav">
     <div class="container">
         <ul class="unstyled full_width our_works">
@@ -12,112 +16,42 @@
 </div>
 
 <div class="container">
-    <section id="portfolio">
-        <ul class="unstyled full_width">
-            <li>
-                <a href="/portfolio/single/01">
-                    <div class="portfolio_img">
-                        <img src="/img/portfolio/01.png" alt="" />
-                        <div class="block_name text-center">
-                            <span class="company">Название компании</span>
-                            <div class="line"></div>
-                            <i href="#" class="icon adap"></i>
-                            <i href="#" class="icon seo"></i>
-                            <i href="#" class="icon dev"></i>
-                            <i href="#" class="icon des"></i>
+    <section id="portfolio" class="clearfix">
+        <ul class="unstyled">
+
+            <?php foreach($all_work as $work): ?>
+
+                <?php
+                    $work_id = $work['portfolio']['id'] ;
+                    $work_title = $work['portfolio']['title'];
+                    $work_image = $work['portfolio']['image'];
+                    $brief_desc = $work['portfolio']['brief_description'];
+                ?>
+                <li>
+                    <a href="/portfolio/single/<?php echo $work_id; ?>">
+                        <div class="portfolio_img">
+                            <img src="<?php echo $work_image; ?>" alt="" />
+                            <div class="block_name text-center">
+                                <span class="company"><?php echo $work_title; ?></span>
+                                <div class="line"></div>
+                                <i href="#" class="icon adap"></i>
+                                <i href="#" class="icon seo"></i>
+                                <i href="#" class="icon dev"></i>
+                                <i href="#" class="icon des"></i>
+                            </div>
                         </div>
-                    </div>
-                    <h3>Название проэкта, должно быть небольше 2 строчек</h3>
-                    <p>Небольшое описане, что было сделанно и т.д.</p>
-                </a>
-            </li>
-            <li>
-                <a href="/portfolio/single/02">
-                    <div class="portfolio_img">
-                        <img src="/img/portfolio/02.png" alt="" />
-                        <div class="block_name text-center">
-                            <span class="company">Название компании</span>
-                            <div class="line"></div>
-                            <i href="#" class="icon adap"></i>
-                            <i href="#" class="icon seo"></i>
-                            <i href="#" class="icon dev"></i>
-                            <i href="#" class="icon des"></i>
-                        </div>
-                    </div>
-                    <h3>Название проэкта, должно быть небольше 2 строчек</h3>
-                    <p>Небольшое описане, что было сделанно и т.д.</p>
-                </a>
-            </li>
-            <li>
-                <a href="/portfolio/single/03">
-                    <div class="portfolio_img">
-                        <img src="/img/portfolio/03.png" alt="" />
-                        <div class="block_name text-center">
-                            <span class="company">Название компании</span>
-                            <div class="line"></div>
-                            <i href="#" class="icon adap"></i>
-                            <i href="#" class="icon seo"></i>
-                            <i href="#" class="icon dev"></i>
-                            <i href="#" class="icon des"></i>
-                        </div>
-                    </div>
-                    <h3>Название проэкта, должно быть небольше 2 строчек</h3>
-                    <p>Небольшое описане, что было сделанно и т.д.</p>
-                </a>
-            </li>
-            <li>
-                <a href="/portfolio/single/04">
-                    <div class="portfolio_img">
-                        <img src="/img/portfolio/01.png" alt="" />
-                        <div class="block_name text-center">
-                            <span class="company">Название компании</span>
-                            <div class="line"></div>
-                            <i href="#" class="icon adap"></i>
-                            <i href="#" class="icon seo"></i>
-                            <i href="#" class="icon dev"></i>
-                            <i href="#" class="icon des"></i>
-                        </div>
-                    </div>
-                    <h3>Название проэкта, должно быть небольше 2 строчек</h3>
-                    <p>Небольшое описане, что было сделанно и т.д.</p>
-                </a>
-            </li>
-            <li>
-                <a href="/portfolio/single/05">
-                    <div class="portfolio_img">
-                        <img src="/img/portfolio/02.png" alt="" />
-                        <div class="block_name text-center">
-                            <span class="company">Название компании</span>
-                            <div class="line"></div>
-                            <i href="#" class="icon adap"></i>
-                            <i href="#" class="icon seo"></i>
-                            <i href="#" class="icon dev"></i>
-                            <i href="#" class="icon des"></i>
-                        </div>
-                    </div>
-                    <h3>Название проэкта, должно быть небольше 2 строчек</h3>
-                    <p>Небольшое описане, что было сделанно и т.д.</p>
-                </a>
-            </li>
-            <li>
-                <a href="/portfolio/single/06">
-                    <div class="portfolio_img">
-                        <img src="/img/portfolio/03.png" alt="" />
-                        <div class="block_name text-center">
-                            <span class="company">Название компании</span>
-                            <div class="line"></div>
-                            <i href="#" class="icon adap"></i>
-                            <i href="#" class="icon seo"></i>
-                            <i href="#" class="icon dev"></i>
-                            <i href="#" class="icon des"></i>
-                        </div>
-                    </div>
-                    <h3>Название проэкта, должно быть небольше 2 строчек</h3>
-                    <p>Небольшое описане, что было сделанно и т.д.</p>
-                </a>
-            </li>
+                        <h3><?php echo $work_title; ?></h3>
+                        <p><?php echo $brief_desc; ?></p>
+                    </a>
+                </li>
+            <?php endforeach; ?>
         </ul>
 
     </section>
 
 </div>
+
+<?php
+
+//debug($all_work);
+?>
