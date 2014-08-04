@@ -109,7 +109,7 @@
 
 <!-- Social Media -->
 <section id="social_media">
-    <div class="container full_width">
+    <div class="container full_width padding_single">
         <div class="contacts_block footer_contact">
             <h4>Контакты Unicorn</h4>
             <span>
@@ -143,7 +143,7 @@
 
 <!-- Footer -->
 <footer>
-    <div class="container full_width">
+    <div class="container full_width padding_single">
         <span class="copyright">© <span class="bold">Unicorn.</span> Все права защищены 2014.</span>
         <a href="#" class="logo"><img src="/img/footer/logo.png" alt="logo"></a>
         <span class="phone">+38 (048) 258-87-65</span>

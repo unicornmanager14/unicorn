@@ -969,6 +969,7 @@ header{
     color: #ffffff;
 }
 #order_project .container{
+    box-sizing: border-box;
     padding: 0 20px;
 }
 #order_project .fence{
@@ -1031,7 +1032,7 @@ header{
     font-size: 14px;
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
     border: 1px solid rgba(0,0,0,0);
-    width: 285px;
+    width: 270px;
     margin-bottom: 20px;
     color: #ffffff;
 }
@@ -1045,7 +1046,7 @@ header{
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
     font-size: 14px;
     padding: 13px 17px;
-    width: 625px;
+    width: 600px;
     border: 0;
     resize: none;
     float: left;
@@ -1112,7 +1113,7 @@ header{
     padding: 6px 23px 6px 11px;
     display: none;
     position: absolute;
-    width: 287px;
+    width: 272px;
 }
 #order_project .input_drop .radio-btn {padding-left: 8px;margin: 3px 0;}
 #order_project .input_drop input[type=checkbox] {display: none;}
@@ -1175,6 +1176,10 @@ header{
     padding: 40px 0 17px;
     border-bottom: 1px solid #aeaeae;
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
+}
+#social_media .padding_single {
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 #social_media .footer_contact h4 {
     font-family: 'PFAgoraSansPro-Bold', sans-serif;
@@ -1472,6 +1477,10 @@ header{
 footer{
     padding: 32px 0 29px;
     font-size: 14px;
+}
+footer .padding_single {
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 footer .copyright {
     color: #303030;
