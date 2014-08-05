@@ -1252,20 +1252,24 @@ header{
     position: absolute;
     top: 50%;
     width: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+    -o-transition: opacity 1s;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
 }
 #portfolio ul li a .block_name .company {
     font-size: 14px;
     color: #ffffff;
     text-transform: uppercase;
     font-family: 'PFAgoraSansPro-Regular', sans-serif;
-    display: none;
 }
 #portfolio ul li a .block_name .line {
     height: 2px;
     width: 53px;
     background: #ffffff;
     margin: 9px auto 15px;
-    display: none;
 }
 #portfolio ul li a .block_name .icon {
     display: inline-block;
@@ -1318,11 +1322,8 @@ header{
 #portfolio ul li a:hover .portfolio_img img {
     opacity: .5;
 }
-#portfolio ul li a:hover .block_name .company {
-    display: block;
-}
-#portfolio ul li a:hover .block_name .line {
-    display: block;
+#portfolio ul li a:hover .block_name {
+    opacity: 1;
 }
 #portfolio ul li a:hover .block_name .icon {
     top: 0;
