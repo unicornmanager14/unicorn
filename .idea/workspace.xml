@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/!!!dump/unicorn.sql" afterPath="$PROJECT_DIR$/!!!dump/unicorn.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/styles.css" afterPath="$PROJECT_DIR$/app/webroot/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="unicorn.iws" />
@@ -26,64 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Contacts/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ContactsController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="30" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PortfolioController.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Controller/PortfolioController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="26" selection-start="875" selection-end="875" vertical-scroll-proportion="0.7617925" vertical-offset="0" max-vertical-offset="848">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Portfolio/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="67" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1054">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Index/index.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="31" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1666">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="single.ctp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/View/Portfolio/single.ctp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="10" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1211" column="1" selection-start="33325" selection-end="33325" vertical-scroll-proportion="0.0" vertical-offset="20587" max-vertical-offset="25636">
+            <state line="1135" column="1" selection-start="31611" selection-end="31611" vertical-scroll-proportion="0.39256677" vertical-offset="18957" max-vertical-offset="25721">
               <folding />
             </state>
           </provider>
@@ -97,7 +43,17 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Denchick" />
+        <option value="Динька" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="rexar1988" />
+    <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="unicorn" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
@@ -111,11 +67,16 @@
         <option value="$PROJECT_DIR$/app/View/Port/port.ctp" />
         <option value="$PROJECT_DIR$/app/View/Contacts/contacts.ctp" />
         <option value="$PROJECT_DIR$/app/View/Layouts/contacts.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Contacts/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/Layouts/portfolio.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Portfolio/index.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/PortfolioController.php" />
         <option value="$PROJECT_DIR$/app/View/Layouts/single.ctp" />
+        <option value="$PROJECT_DIR$/app/View/Portfolio/single.ctp" />
         <option value="$PROJECT_DIR$/robots.txt" />
         <option value="$PROJECT_DIR$/app/Config/database.php" />
         <option value="$PROJECT_DIR$/app/Controller/IndexController.php" />
+        <option value="$PROJECT_DIR$/app/View/Index/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/Admin/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/Admin/add.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/AdminController.php" />
@@ -124,22 +85,18 @@
         <option value="$PROJECT_DIR$/app/Controller/CommonController" />
         <option value="$PROJECT_DIR$/app/View/Common/view.ctp" />
         <option value="$PROJECT_DIR$/app/View/Post/view.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/ContactsController.php" />
         <option value="$PROJECT_DIR$/app/Controller/CommonController.php" />
         <option value="$PROJECT_DIR$/app/Controller/SrvicesController.php" />
         <option value="$PROJECT_DIR$/app/Controller/ServicesController.php" />
+        <option value="$PROJECT_DIR$/app/View/Layouts/index.ctp" />
+        <option value="$PROJECT_DIR$/app/Controller/AboutController.php" />
         <option value="$PROJECT_DIR$/app/View/Services/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/Elements/main_menu.ctp" />
         <option value="$PROJECT_DIR$/app/View/About/index.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/AboutController.php" />
         <option value="$PROJECT_DIR$/app/webroot/js/scripts.js" />
-        <option value="$PROJECT_DIR$/app/View/Index/index.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Contacts/index.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/ContactsController.php" />
-        <option value="$PROJECT_DIR$/app/View/Portfolio/single.ctp" />
-        <option value="$PROJECT_DIR$/app/View/Layouts/index.ctp" />
+        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/webroot/css/styles.css" />
-        <option value="$PROJECT_DIR$/app/View/Portfolio/index.ctp" />
-        <option value="$PROJECT_DIR$/app/Controller/PortfolioController.php" />
       </list>
     </option>
   </component>
@@ -157,7 +114,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -266,174 +223,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Portfolio" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pages" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Index" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Contacts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="View" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="About" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="unicorn" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -444,21 +233,21 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="SearchEverywhereHistory" value="&lt;" />
     <property name="FullScreen" value="false" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="290" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="272" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="290" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="290" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="297" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="965" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="976" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="294" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="297" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="283" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="286" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="289" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="293" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="969" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="972" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager">
@@ -501,152 +290,109 @@
       <created>1404382028028</created>
       <updated>1404382028028</updated>
     </task>
-    <task id="LOCAL-00001" summary="Юникорн">
-      <created>1406915456568</created>
-      <updated>1406915456568</updated>
+    <task id="LOCAL-00001" summary="2 новые страницы">
+      <created>1406548499367</created>
+      <updated>1406548499367</updated>
     </task>
-    <task id="LOCAL-00002" summary="Юникорн">
-      <created>1406915496740</created>
-      <updated>1406915496740</updated>
+    <task id="LOCAL-00002" summary="2 новые страницы">
+      <created>1407256811418</created>
+      <updated>1407256811418</updated>
     </task>
-    <task id="LOCAL-00003" summary="Юникорн">
-      <created>1406915831245</created>
-      <updated>1406915831245</updated>
+    <task id="LOCAL-00003" summary="Денис">
+      <created>1407257334092</created>
+      <updated>1407257334092</updated>
     </task>
-    <task id="LOCAL-00004" summary="123">
-      <created>1406915857016</created>
-      <updated>1406915857016</updated>
+    <task id="LOCAL-00004" summary="Денис">
+      <created>1407257396668</created>
+      <updated>1407257396668</updated>
     </task>
-    <task id="LOCAL-00005" summary="123">
-      <created>1406915912906</created>
-      <updated>1406915912906</updated>
+    <task id="LOCAL-00005" summary="Денис">
+      <created>1407257635565</created>
+      <updated>1407257635565</updated>
     </task>
-    <task id="LOCAL-00006" summary="123">
-      <created>1406916059421</created>
-      <updated>1406916059421</updated>
+    <task id="LOCAL-00006" summary="Денис">
+      <created>1407257717029</created>
+      <updated>1407257717029</updated>
     </task>
-    <task id="LOCAL-00007" summary="123">
-      <created>1406916118456</created>
-      <updated>1406916118456</updated>
+    <task id="LOCAL-00007" summary="Денис">
+      <created>1407257760910</created>
+      <updated>1407257760910</updated>
     </task>
-    <task id="LOCAL-00008" summary="123">
-      <created>1406916207211</created>
-      <updated>1406916207211</updated>
+    <task id="LOCAL-00008" summary="Денис">
+      <created>1407258007428</created>
+      <updated>1407258007428</updated>
     </task>
-    <task id="LOCAL-00009" summary="123">
-      <created>1406916264023</created>
-      <updated>1406916264023</updated>
+    <task id="LOCAL-00009" summary="22222">
+      <created>1407258496495</created>
+      <updated>1407258496495</updated>
     </task>
-    <task id="LOCAL-00010" summary="123">
-      <created>1406920747892</created>
-      <updated>1406920747892</updated>
+    <task id="LOCAL-00010" summary="22222">
+      <created>1407258518344</created>
+      <updated>1407258518344</updated>
     </task>
-    <task id="LOCAL-00011" summary="123">
-      <created>1407100021947</created>
-      <updated>1407100021947</updated>
+    <task id="LOCAL-00011" summary="22222">
+      <created>1407260495810</created>
+      <updated>1407260495810</updated>
     </task>
-    <task id="LOCAL-00012" summary="Страница World of Warcraft">
-      <created>1407100045576</created>
-      <updated>1407100045576</updated>
+    <task id="LOCAL-00012" summary="22222">
+      <created>1407260913151</created>
+      <updated>1407260913151</updated>
     </task>
-    <task id="LOCAL-00013" summary="Страница World of Warcraft">
-      <created>1407100051039</created>
-      <updated>1407100051039</updated>
+    <task id="LOCAL-00013" summary="22222">
+      <created>1407261180078</created>
+      <updated>1407261180078</updated>
     </task>
-    <task id="LOCAL-00014" summary="Страница World of Warcraft">
-      <created>1407100123198</created>
-      <updated>1407100123198</updated>
+    <task id="LOCAL-00014" summary="22222">
+      <created>1407261351016</created>
+      <updated>1407261351016</updated>
     </task>
-    <task id="LOCAL-00015" summary="Страница World of Warcraft">
-      <created>1407100320232</created>
-      <updated>1407100320232</updated>
+    <task id="LOCAL-00015" summary="22222">
+      <created>1407261388642</created>
+      <updated>1407261388642</updated>
     </task>
-    <task id="LOCAL-00016" summary="Страница World of Warcraft">
-      <created>1407100586964</created>
-      <updated>1407100586964</updated>
+    <task id="LOCAL-00016" summary="22222">
+      <created>1407261432415</created>
+      <updated>1407261432415</updated>
     </task>
-    <task id="LOCAL-00017" summary="Страница World of Warcraft">
-      <created>1407100910161</created>
-      <updated>1407100910161</updated>
+    <task id="LOCAL-00017" summary="3333">
+      <created>1407261649928</created>
+      <updated>1407261649928</updated>
     </task>
-    <task id="LOCAL-00018" summary="Страница World of Warcraft">
-      <created>1407101273463</created>
-      <updated>1407101273463</updated>
+    <task id="LOCAL-00018" summary="3333">
+      <created>1407263817972</created>
+      <updated>1407263817973</updated>
     </task>
-    <task id="LOCAL-00019" summary="Страница World of Warcraft">
-      <created>1407102666270</created>
-      <updated>1407102666270</updated>
+    <task id="LOCAL-00019" summary="3333">
+      <created>1407263827086</created>
+      <updated>1407263827086</updated>
     </task>
-    <task id="LOCAL-00020" summary="Страница World of Warcraft">
-      <created>1407102676516</created>
-      <updated>1407102676516</updated>
-    </task>
-    <task id="LOCAL-00021" summary="Страница World of Warcraft">
-      <created>1407180219789</created>
-      <updated>1407180219789</updated>
-    </task>
-    <task id="LOCAL-00022" summary="Страница World of Warcraft">
-      <created>1407180673745</created>
-      <updated>1407180673745</updated>
-    </task>
-    <task id="LOCAL-00023" summary="Страница World of Warcraft">
-      <created>1407181988367</created>
-      <updated>1407181988367</updated>
-    </task>
-    <task id="LOCAL-00024" summary="Страница World of Warcraft">
-      <created>1407183753568</created>
-      <updated>1407183753568</updated>
-    </task>
-    <task id="LOCAL-00025" summary="Страница World of Warcraft">
-      <created>1407183853880</created>
-      <updated>1407183853880</updated>
-    </task>
-    <option name="localTasksCounter" value="26" />
+    <option name="localTasksCounter" value="20" />
     <servers />
-  </component>
-  <component name="TodoView" selected-index="0">
-    <todo-panel id="selected-file">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
-    <todo-panel id="default-changelist">
-      <are-packages-shown value="false" />
-      <are-modules-shown value="false" />
-      <flatten-packages value="false" />
-      <is-autoscroll-to-source value="false" />
-    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3288889" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3292683" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18423855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17891374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -681,201 +427,19 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
-    <MESSAGE value="Юникорн" />
-    <MESSAGE value="123" />
-    <MESSAGE value="Страница World of Warcraft" />
-    <option name="LAST_COMMIT_MESSAGE" value="Страница World of Warcraft" />
+    <MESSAGE value="2 новые страницы" />
+    <MESSAGE value="Денис" />
+    <MESSAGE value="22222" />
+    <MESSAGE value="3333" />
+    <option name="LAST_COMMIT_MESSAGE" value="3333" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/View/Contacts/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/PortfolioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="0" selection-start="848" selection-end="848" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="799">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Portfolio/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="67" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Index/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Portfolio/single.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1211" column="1" selection-start="33325" selection-end="33325" vertical-scroll-proportion="0.0" vertical-offset="20587" max-vertical-offset="25636">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Contacts/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/PortfolioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="31" selection-start="356" selection-end="362" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Portfolio/single.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="28" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" vertical-offset="578" max-vertical-offset="680">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1407" column="20" selection-start="38289" selection-end="38289" vertical-scroll-proportion="0.0" vertical-offset="23919" max-vertical-offset="25398">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="336" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="952" max-vertical-offset="1921">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Contacts/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="28" selection-start="606" selection-end="614" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1451" column="20" selection-start="39290" selection-end="39290" vertical-scroll-proportion="0.0" vertical-offset="24078" max-vertical-offset="25398">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="336" selection-end="460" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="1921">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robots.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="21" selection-start="674" selection-end="674" vertical-scroll-proportion="0.3979933" vertical-offset="0" max-vertical-offset="897" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="138" column="0" selection-start="6869" selection-end="6945" vertical-scroll-proportion="0.0" vertical-offset="704" max-vertical-offset="4811" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Config/routes.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="874" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Contacts/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/ContactsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="30" selection-start="115" selection-end="115" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Layouts/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="23" selection-start="4952" selection-end="4952" vertical-scroll-proportion="1.1788322" vertical-offset="765" max-vertical-offset="2754">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/About/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="336" selection-end="460" vertical-scroll-proportion="0.28502995" vertical-offset="0" max-vertical-offset="1921">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1211" column="1" selection-start="33325" selection-end="33325" vertical-scroll-proportion="0.0" vertical-offset="20587" max-vertical-offset="25636">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Portfolio/single.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="10" selection-start="987" selection-end="987" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Index/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="31" selection-start="790" selection-end="790" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/View/Portfolio/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="67" selection-start="1001" selection-end="1001" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1054">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Controller/PortfolioController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="26" selection-start="875" selection-end="875" vertical-scroll-proportion="0.7617925" vertical-offset="0" max-vertical-offset="848">
+        <state line="1135" column="1" selection-start="31611" selection-end="31611" vertical-scroll-proportion="0.39256677" vertical-offset="18957" max-vertical-offset="25721">
           <folding />
         </state>
       </provider>

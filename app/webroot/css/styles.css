@@ -1130,7 +1130,7 @@ header{
     color: #ffffff;
 }
 #order_project .order_project_content .contact_form input::-webkit-input-placeholder,
-#order_project .order_project_content .contact_form textarea::-webkit-input-pl {
+#order_project .order_project_content .contact_form textarea::-webkit-input-placeholder {
     opacity: 1;
     color: #ffffff;
 }
