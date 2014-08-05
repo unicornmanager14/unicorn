@@ -5,6 +5,8 @@
     <?php echo $this->Html->charset(); ?>
     <title><?php echo $page_title; ?></title>
 
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
     <link href="<?php echo Router::fullbaseUrl() ?>/css/styles.css" rel="stylesheet" />
     <script src="<?php echo Router::fullbaseUrl() ?>/js/jquery-2.1.1.min.js"></script>
     <script src="<?php echo Router::fullbaseUrl() ?>/js/css3-mediaqueries.js"></script>
@@ -21,7 +23,6 @@
     <!-- /jquery.selectBox -->
 
     <script src="<?php echo Router::fullbaseUrl() ?>/js/scripts.js"></script>
-    <?php $this->Html->meta('icon', $this->Html->url('img/favicon.png')); ?>
 </head>
 
 <body>

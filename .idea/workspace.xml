@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3494b20-8483-4ae6-80cc-426402d1bfbf" name="Default" comment="">
+      <change type="DELETED" beforePath="F:\OpenServer\domains\unicorn\app\webroot\img\cake.icon.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\OpenServer\domains\unicorn\app\webroot\img\favicon.png" afterPath="" />
+      <change type="DELETED" beforePath="F:\OpenServer\domains\unicorn\lib\Cake\Test\test_app\Plugin\TestPlugin\webroot\img\cake.icon.gif" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Console/Templates/skel/webroot/img/cake.icon.png" afterPath="$PROJECT_DIR$/lib/Cake/Console/Templates/skel/webroot/img/cake.icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/favicon.ico" afterPath="$PROJECT_DIR$/app/webroot/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/Cake/Console/Templates/skel/webroot/favicon.ico" afterPath="$PROJECT_DIR$/lib/Cake/Console/Templates/skel/webroot/favicon.ico" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/View/Layouts/index.ctp" afterPath="$PROJECT_DIR$/app/View/Layouts/index.ctp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/webroot/css/styles.css" afterPath="$PROJECT_DIR$/app/webroot/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,10 +33,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="styles.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="styles.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1135" column="1" selection-start="31611" selection-end="31611" vertical-scroll-proportion="0.39256677" vertical-offset="18957" max-vertical-offset="25721">
+            <state line="1145" column="1" selection-start="31880" selection-end="31880" vertical-scroll-proportion="0.0" vertical-offset="18192" max-vertical-offset="25670">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ctp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/View/Layouts/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="6" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.5412736" vertical-offset="0" max-vertical-offset="2771">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ctp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/View/Index/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1666">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IndexController.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Controller/IndexController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="25" selection-start="149" selection-end="149" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="459">
               <folding />
             </state>
           </provider>
@@ -89,7 +123,6 @@
         <option value="$PROJECT_DIR$/app/Controller/CommonController.php" />
         <option value="$PROJECT_DIR$/app/Controller/SrvicesController.php" />
         <option value="$PROJECT_DIR$/app/Controller/ServicesController.php" />
-        <option value="$PROJECT_DIR$/app/View/Layouts/index.ctp" />
         <option value="$PROJECT_DIR$/app/Controller/AboutController.php" />
         <option value="$PROJECT_DIR$/app/View/Services/index.ctp" />
         <option value="$PROJECT_DIR$/app/View/Elements/main_menu.ctp" />
@@ -97,6 +130,7 @@
         <option value="$PROJECT_DIR$/app/webroot/js/scripts.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/webroot/css/styles.css" />
+        <option value="$PROJECT_DIR$/app/View/Layouts/index.ctp" />
       </list>
     </option>
   </component>
@@ -220,6 +254,68 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Layouts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="View" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Index" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="unicorn" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -366,13 +462,18 @@
       <created>1407263827086</created>
       <updated>1407263827086</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Placeholder">
+      <created>1407264365185</created>
+      <updated>1407264365185</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -389,7 +490,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32777777" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -431,7 +531,8 @@
     <MESSAGE value="Денис" />
     <MESSAGE value="22222" />
     <MESSAGE value="3333" />
-    <option name="LAST_COMMIT_MESSAGE" value="3333" />
+    <MESSAGE value="Placeholder" />
+    <option name="LAST_COMMIT_MESSAGE" value="Placeholder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -439,7 +540,28 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/app/webroot/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1135" column="1" selection-start="31611" selection-end="31611" vertical-scroll-proportion="0.39256677" vertical-offset="18957" max-vertical-offset="25721">
+        <state line="1145" column="1" selection-start="31880" selection-end="31880" vertical-scroll-proportion="0.0" vertical-offset="18192" max-vertical-offset="25670">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Index/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Controller/IndexController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="25" selection-start="149" selection-end="149" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="459">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/View/Layouts/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="6" selection-start="1306" selection-end="1306" vertical-scroll-proportion="0.5412736" vertical-offset="0" max-vertical-offset="2771">
           <folding />
         </state>
       </provider>
